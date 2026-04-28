@@ -255,3 +255,75 @@ Think of IP address like a home address — if street numbers are different, the
 - If you get a reply → Machine is reachable ✅
 - If "Request timed out" → Check IP range or cable ❌
 
+
+---
+
+## 🔌 How to Reset Biometric Machine Via LAN Cable (Step by Step)
+
+### Step 1: Hardware Connection
+1. Plug one end of LAN cable into the **biometric machine**
+2. Plug the other end into your **computer**
+
+---
+
+### Step 2: Turn Off WiFi
+1. Go to **System Tray** (bottom right)
+2. Click on **WiFi icon**
+3. Turn **WiFi Off** ✅
+4. Only LAN cable should be active
+
+---
+
+### Step 3: Set Manual IP on Computer
+1. Go to **Control Panel** → **Network and Sharing Center**
+2. Click **"Change adapter settings"**
+3. Right-click on **Ethernet / Local Area Connection** → **Properties**
+4. Select **"Internet Protocol Version 4 (TCP/IPv4)"** → **Properties**
+5. Select **"Use the following IP address"** and enter:
+   - IP Address: `192.168.1.100`
+   - Subnet Mask: `255.255.255.0`
+   - Default Gateway: `192.168.1.1`
+6. Click **OK** ✅
+
+---
+
+### Step 4: Check Machine IP Address
+1. Press **Menu** button on the machine
+2. Go to **Comm** → **Ethernet**
+3. Note down the IP Address shown on screen
+   - Example: `192.168.1.201`
+
+---
+
+### Step 5: Test Connection
+1. Open **Command Prompt** (Press `Windows + R` → type `cmd` → Enter)
+2. Type: `ping 192.168.1.201` and press Enter
+3. If you get a **reply** → Connection is OK ✅
+4. If **"Request timed out"** → Check cable or IP range ❌
+
+---
+
+### Step 6: Add Machine in Software
+
+**ZKTime 5.0:**
+1. Open software → **Device** → **Add Device**
+2. Enter IP: `192.168.1.201`
+3. Port: `4370`
+4. Click **Connect** ✅
+
+**ZKBioTime.Net:**
+1. Open software → **Device Management** → **Add**
+2. Enter IP: `192.168.1.201`
+3. Port: `4370`
+4. Click **Save & Connect** ✅
+
+---
+
+### Step 7: Reset Machine From Software
+1. In software, select your connected device
+2. Go to **Device** → **Reset Device** or **Clear Data**
+3. Click **Confirm** ✅
+4. Machine will restart and reset to factory settings
+
+> ⚠️ All fingerprints and attendance records will be deleted after reset. Take backup first if needed.
+
