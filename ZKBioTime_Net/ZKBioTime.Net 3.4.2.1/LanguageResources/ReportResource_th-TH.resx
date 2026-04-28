@@ -1,0 +1,3707 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="TB_TTip_Map" xml:space="preserve">
+    <value>แผนผังเอกสาร</value>
+  </data>
+  <data name="TB_TTip_Parameters" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="SB_PageNone" xml:space="preserve">
+    <value>ไม่มีอะไร</value>
+  </data>
+  <data name="MenuItem_ZoomPageWidth" xml:space="preserve">
+    <value>ความกว้างของหน้า</value>
+  </data>
+  <data name="MenuItem_ZoomTextWidth" xml:space="preserve">
+    <value>ความกว้างของข้อความ</value>
+  </data>
+  <data name="MenuItem_ZoomWholePage" xml:space="preserve">
+    <value>ทั้งหน้า</value>
+  </data>
+  <data name="MenuItem_ZoomTwoPages" xml:space="preserve">
+    <value>สองหน้า</value>
+  </data>
+  <data name="Button_Cancel" xml:space="preserve">
+    <value>ยกเลิก</value>
+  </data>
+  <data name="ScalePopup_GroupText" xml:space="preserve">
+    <value>ปรับขนาด</value>
+  </data>
+  <data name="ScalePopup_AdjustTo" xml:space="preserve">
+    <value>ปรับเป็น</value>
+  </data>
+  <data name="ScalePopup_NormalSize" xml:space="preserve">
+    <value>%ของขนาดปกติ</value>
+  </data>
+  <data name="ScalePopup_FitTo" xml:space="preserve">
+    <value>ลงตัวกับ</value>
+  </data>
+  <data name="ScalePopup_PagesWide" xml:space="preserve">
+    <value>หน้ากว้าง</value>
+  </data>
+  <data name="Button_Ok" xml:space="preserve">
+    <value>ตกลง</value>
+  </data>
+  <data name="Msg_CreatingDocument" xml:space="preserve">
+    <value>สร้างเอกสาร...</value>
+  </data>
+  <data name="Msg_EmptyDocument" xml:space="preserve">
+    <value>ไม่มีหน้าเอกสาร</value>
+  </data>
+  <data name="SB_PageOfPagesHint" xml:space="preserve">
+    <value>หมายเลขหน้าในเอกสาร คลิกเพื่อไปที่หน้า</value>
+  </data>
+  <data name="SB_PageOfPages" xml:space="preserve">
+    <value>หน้า {0} จาก {1}</value>
+  </data>
+  <data name="GroupSort_AddGroup" xml:space="preserve">
+    <value>เพิ่มกลุ่ม</value>
+  </data>
+  <data name="GroupSort_AddSort" xml:space="preserve">
+    <value>เพิ่มจัดเรียง</value>
+  </data>
+  <data name="GroupSort_MoveUp" xml:space="preserve">
+    <value>ขยับขึ้น</value>
+  </data>
+  <data name="GroupSort_MoveDown" xml:space="preserve">
+    <value>ขยับลง</value>
+  </data>
+  <data name="GroupSort_Delete" xml:space="preserve">
+    <value>ลบ</value>
+  </data>
+  <data name="ScriptEditor_ErrorDescription" xml:space="preserve">
+    <value>คำอธิบาย</value>
+  </data>
+  <data name="ScriptEditor_ErrorLine" xml:space="preserve">
+    <value>เส้น</value>
+  </data>
+  <data name="ScriptEditor_ErrorColumn" xml:space="preserve">
+    <value>แนว</value>
+  </data>
+  <data name="UD_Title_PropertyGrid" xml:space="preserve">
+    <value>ตารางคุณสมบัติ</value>
+  </data>
+  <data name="UD_Title_ReportExplorer" xml:space="preserve">
+    <value>สำรวจรายงาน</value>
+  </data>
+  <data name="UD_Title_FieldList" xml:space="preserve">
+    <value>รายการข้อมูล</value>
+  </data>
+  <data name="UD_Title_GroupAndSort" xml:space="preserve">
+    <value>จัดกลุ่มและจัดเรียง</value>
+  </data>
+  <data name="UD_Title_ErrorList" xml:space="preserve">
+    <value>ข้อผิดพลาดของสคริปต์</value>
+  </data>
+  <data name="UD_Capt_MainMenuName" xml:space="preserve">
+    <value>เมนูหลัก</value>
+  </data>
+  <data name="UD_Capt_ToolbarName" xml:space="preserve">
+    <value>แถบเครื่องมือ</value>
+  </data>
+  <data name="UD_Capt_FormattingToolbarName" xml:space="preserve">
+    <value>การจัดรูปแบบ</value>
+  </data>
+  <data name="UD_Capt_LayoutToolbarName" xml:space="preserve">
+    <value>เค้าโครง</value>
+  </data>
+  <data name="UD_Capt_StatusBarName" xml:space="preserve">
+    <value>สถานะ</value>
+  </data>
+  <data name="UD_TTip_FormatFontName" xml:space="preserve">
+    <value>แบบอักษร</value>
+  </data>
+  <data name="UD_TTip_FormatFontSize" xml:space="preserve">
+    <value>ขนาดอักษร</value>
+  </data>
+  <data name="UD_Hint_FontBold" xml:space="preserve">
+    <value>ตัวหนา</value>
+  </data>
+  <data name="UD_Hint_FontItalic" xml:space="preserve">
+    <value>ตัวเอียง</value>
+  </data>
+  <data name="UD_Hint_FontUnderline" xml:space="preserve">
+    <value>ขีดเส้นใต้</value>
+  </data>
+  <data name="UD_Hint_ForegroundColor" xml:space="preserve">
+    <value>ตั้งค่าสีพื้นหน้าของตัวควบคุม</value>
+  </data>
+  <data name="UD_Hint_BackGroundColor" xml:space="preserve">
+    <value>ตั้งค่าสีพื้นหลังของตัวควบคุม</value>
+  </data>
+  <data name="UD_Hint_JustifyLeft" xml:space="preserve">
+    <value>จัดแนวข้อความไปทางซ้าย</value>
+  </data>
+  <data name="UD_Hint_JustifyCenter" xml:space="preserve">
+    <value>จัดแนวข้อความของตัวควบคุมไปตรงกลาง</value>
+  </data>
+  <data name="UD_Hint_JustifyRight" xml:space="preserve">
+    <value>จัดแนวข้อความของตัวควบคุมไปทางขวา</value>
+  </data>
+  <data name="UD_Hint_JustifyJustify" xml:space="preserve">
+    <value>ปรับข้อความของตัวควบคุม</value>
+  </data>
+  <data name="UD_Capt_FontBold" xml:space="preserve">
+    <value>&amp;ตัวหนา</value>
+  </data>
+  <data name="UD_Capt_FontItalic" xml:space="preserve">
+    <value>&amp;ตัวเอียง</value>
+  </data>
+  <data name="UD_Capt_FontUnderline" xml:space="preserve">
+    <value>&amp;ขีดเส้นใต้</value>
+  </data>
+  <data name="UD_Capt_ForegroundColor" xml:space="preserve">
+    <value>&amp;สีพื้นหน้า</value>
+  </data>
+  <data name="UD_Capt_BackGroundColor" xml:space="preserve">
+    <value>&amp;สีพื้นหลัง</value>
+  </data>
+  <data name="UD_Capt_JustifyLeft" xml:space="preserve">
+    <value>&amp;ด้านซ้าย</value>
+  </data>
+  <data name="UD_Capt_JustifyCenter" xml:space="preserve">
+    <value>&amp;ตรงกลาง</value>
+  </data>
+  <data name="UD_Capt_JustifyRight" xml:space="preserve">
+    <value>&amp;ด้านขวา</value>
+  </data>
+  <data name="UD_Capt_JustifyJustify" xml:space="preserve">
+    <value>&amp;จัดการ</value>
+  </data>
+  <data name="UD_Hint_AlignToGrid" xml:space="preserve">
+    <value>จัดตำแหน่งของตัวอักษรที่เลือกให้ตรงกับเส้นตาราง</value>
+  </data>
+  <data name="UD_Hint_AlignLefts" xml:space="preserve">
+    <value>จัดแนวข้อความไปทางซ้าย</value>
+  </data>
+  <data name="UD_Hint_AlignCenters" xml:space="preserve">
+    <value>จัดแนวข้อความของตัวควบคุมไปตรงกลาง</value>
+  </data>
+  <data name="UD_Hint_AlignRights" xml:space="preserve">
+    <value>จัดแนวข้อความของตัวควบคุมไปทางขวา</value>
+  </data>
+  <data name="UD_Hint_AlignTops" xml:space="preserve">
+    <value>จัดแนวข้อความของตัวควบคุมไปด้านบน</value>
+  </data>
+  <data name="UD_Hint_AlignMiddles" xml:space="preserve">
+    <value>จัดตำแหน่งกึ่งกลางของตัวควบคุมที่เลือกในแนวนอน</value>
+  </data>
+  <data name="UD_Hint_AlignBottoms" xml:space="preserve">
+    <value>จัดแนวด้านล่างของตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="UD_Hint_MakeSameSizeWidth" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีความกว้างเท่ากัน</value>
+  </data>
+  <data name="UD_Hint_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>ปรับขนาดตัวควบคุมที่เลือกเป็นเส้นตาราง</value>
+  </data>
+  <data name="UD_Hint_MakeSameSizeHeight" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีความสูงเท่ากัน</value>
+  </data>
+  <data name="UD_Hint_MakeSameSizeBoth" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีขนาดเท่ากัน</value>
+  </data>
+  <data name="UD_Hint_SpacingMakeEqual" xml:space="preserve">
+    <value>ทำให้ระยะห่างระหว่างตัวควบคุมที่เลือกเท่ากัน</value>
+  </data>
+  <data name="UD_Hint_SpacingIncrease" xml:space="preserve">
+    <value>เพิ่มระยะห่างระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="UD_Hint_SpacingDecrease" xml:space="preserve">
+    <value>ลดระยะห่างระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="UD_Hint_SpacingRemove" xml:space="preserve">
+    <value>ลบระยะห่างระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="UD_Hint_CenterInFormHorizontally" xml:space="preserve">
+    <value>จัดกึ่งกลางการควบคุมที่เลือกในแนวนอนภายในวงดนตรี</value>
+  </data>
+  <data name="UD_Hint_CenterInFormVertically" xml:space="preserve">
+    <value>จัดกึ่งกลางการควบคุมที่เลือกในแนวตั้งภายในวงดนตรี</value>
+  </data>
+  <data name="UD_Hint_OrderBringToFront" xml:space="preserve">
+    <value>นำตัวควบคุมที่เลือกไว้ด้านหน้า</value>
+  </data>
+  <data name="UD_Hint_OrderSendToBack" xml:space="preserve">
+    <value>ย้ายตัวควบคุมที่เลือกไปด้านหลัง</value>
+  </data>
+  <data name="UD_Capt_AlignToGrid" xml:space="preserve">
+    <value>to &amp;กริด</value>
+  </data>
+  <data name="UD_Capt_AlignLefts" xml:space="preserve">
+    <value>&amp;ทางซ้าย</value>
+  </data>
+  <data name="UD_Capt_AlignCenters" xml:space="preserve">
+    <value>&amp;ตรงกลาง</value>
+  </data>
+  <data name="UD_Capt_AlignRights" xml:space="preserve">
+    <value>&amp;ทางขวา</value>
+  </data>
+  <data name="UD_Capt_AlignTops" xml:space="preserve">
+    <value>&amp;ด้านบน</value>
+  </data>
+  <data name="UD_Capt_AlignMiddles" xml:space="preserve">
+    <value>&amp;ส่วนกลาง</value>
+  </data>
+  <data name="UD_Capt_AlignBottoms" xml:space="preserve">
+    <value>&amp;ด้านล่าง</value>
+  </data>
+  <data name="UD_Capt_MakeSameSizeWidth" xml:space="preserve">
+    <value>&amp;ความกว้าง</value>
+  </data>
+  <data name="UD_Capt_MakeSameSizeSizeToGrid" xml:space="preserve">
+    <value>&amp;ขนาดเป็นตาราง</value>
+  </data>
+  <data name="UD_Capt_MakeSameSizeHeight" xml:space="preserve">
+    <value>&amp;ความสูง</value>
+  </data>
+  <data name="UD_Capt_MakeSameSizeBoth" xml:space="preserve">
+    <value>&amp;ทั้งคู่</value>
+  </data>
+  <data name="UD_Capt_SpacingMakeEqual" xml:space="preserve">
+    <value>&amp;ทำให้เท่ากัน</value>
+  </data>
+  <data name="UD_Capt_SpacingIncrease" xml:space="preserve">
+    <value>&amp;เพิ่ม</value>
+  </data>
+  <data name="UD_Capt_SpacingDecrease" xml:space="preserve">
+    <value>&amp;ลดลง</value>
+  </data>
+  <data name="UD_Capt_SpacingRemove" xml:space="preserve">
+    <value>&amp;ลบ</value>
+  </data>
+  <data name="UD_Capt_CenterInFormHorizontally" xml:space="preserve">
+    <value>&amp;แนวนอน</value>
+  </data>
+  <data name="UD_Capt_CenterInFormVertically" xml:space="preserve">
+    <value>&amp;แนวตั้ง</value>
+  </data>
+  <data name="UD_Capt_OrderBringToFront" xml:space="preserve">
+    <value>&amp;นำหน้า</value>
+  </data>
+  <data name="UD_Capt_OrderSendToBack" xml:space="preserve">
+    <value>&amp;ส่งกลับ</value>
+  </data>
+  <data name="UD_Capt_NewReport" xml:space="preserve">
+    <value>&amp;ใหม่</value>
+  </data>
+  <data name="UD_Hint_NewReport" xml:space="preserve">
+    <value>สร้างรายงานใหม่</value>
+  </data>
+  <data name="UD_Hint_OpenFile" xml:space="preserve">
+    <value>เปิดรายงาน</value>
+  </data>
+  <data name="UD_Hint_SaveFile" xml:space="preserve">
+    <value>บันทึกรายงาน</value>
+  </data>
+  <data name="UD_Hint_Cut" xml:space="preserve">
+    <value>ลบตัวควบคุมและคัดลอกไปยังคลิปบอร์ด</value>
+  </data>
+  <data name="UD_Hint_Copy" xml:space="preserve">
+    <value>คัดลอกตัวอักษรไปยังคลิปบอร์ด</value>
+  </data>
+  <data name="UD_Hint_Paste" xml:space="preserve">
+    <value>เพิ่มตัวอักษรจากคลิปบอร์ด</value>
+  </data>
+  <data name="UD_Hint_Undo" xml:space="preserve">
+    <value>ยกเลิกการดำเนินการล่าสุด</value>
+  </data>
+  <data name="UD_Hint_Redo" xml:space="preserve">
+    <value>ทำซ้ำการดำเนินการล่าสุด</value>
+  </data>
+  <data name="UD_Capt_OpenFile" xml:space="preserve">
+    <value>&amp;เปิด...</value>
+  </data>
+  <data name="UD_Capt_SaveFile" xml:space="preserve">
+    <value>&amp;บันทึก</value>
+  </data>
+  <data name="UD_Capt_Cut" xml:space="preserve">
+    <value>&amp;ตัด</value>
+  </data>
+  <data name="UD_Capt_Copy" xml:space="preserve">
+    <value>&amp;คัดลอก</value>
+  </data>
+  <data name="UD_Capt_Paste" xml:space="preserve">
+    <value>&amp;วาง</value>
+  </data>
+  <data name="UD_Capt_Undo" xml:space="preserve">
+    <value>&amp;ย้อนกลับ</value>
+  </data>
+  <data name="UD_Capt_Redo" xml:space="preserve">
+    <value>&amp;ทำซ้ำ</value>
+  </data>
+  <data name="UD_Group_File" xml:space="preserve">
+    <value>&amp;ไฟล์</value>
+  </data>
+  <data name="UD_Group_Edit" xml:space="preserve">
+    <value>&amp;แก้ไข</value>
+  </data>
+  <data name="UD_Group_View" xml:space="preserve">
+    <value>&amp;ดู</value>
+  </data>
+  <data name="UD_Group_TabButtonsList" xml:space="preserve">
+    <value>ปุ่มแท็บ</value>
+  </data>
+  <data name="UD_Group_ToolbarsList" xml:space="preserve">
+    <value>&amp;แถบเครื่องมือ</value>
+  </data>
+  <data name="UD_Group_DockPanelsList" xml:space="preserve">
+    <value>&amp;วินโดว์</value>
+  </data>
+  <data name="UD_Group_Format" xml:space="preserve">
+    <value>&amp;รูปแบบ</value>
+  </data>
+  <data name="UD_Group_Font" xml:space="preserve">
+    <value>&amp;แบบอักษร</value>
+  </data>
+  <data name="UD_Group_Justify" xml:space="preserve">
+    <value>&amp;จัดให้</value>
+  </data>
+  <data name="UD_Group_Align" xml:space="preserve">
+    <value>&amp;จัดแนว</value>
+  </data>
+  <data name="UD_Group_MakeSameSize" xml:space="preserve">
+    <value>&amp;ทำให้มีขนาดเท่ากัน</value>
+  </data>
+  <data name="UD_Group_HorizontalSpacing" xml:space="preserve">
+    <value>&amp;ระยะห่างในแนวนอน</value>
+  </data>
+  <data name="UD_Group_VerticalSpacing" xml:space="preserve">
+    <value>&amp;ระยะห่างในแนวตั้ง</value>
+  </data>
+  <data name="UD_Group_CenterInForm" xml:space="preserve">
+    <value>&amp;ศูนย์ในแบบฟอร์ม</value>
+  </data>
+  <data name="UD_Group_Order" xml:space="preserve">
+    <value>&amp;ออเดอร์</value>
+  </data>
+  <data name="UD_Capt_NewWizardReport" xml:space="preserve">
+    <value>new via&amp;ตัวช่วยสร้าง</value>
+  </data>
+  <data name="UD_Hint_NewWizardReport" xml:space="preserve">
+    <value>สร้างรายงานใหม่โดยใช้ตัวช่วยสร้าง</value>
+  </data>
+  <data name="UD_Capt_SaveFileAs" xml:space="preserve">
+    <value>&amp;บันทึกเป็น...</value>
+  </data>
+  <data name="UD_Hint_SaveFileAs" xml:space="preserve">
+    <value>บันทึกรายงานด้วยชื่อใหม่</value>
+  </data>
+  <data name="UD_Capt_Exit" xml:space="preserve">
+    <value>&amp;ออก</value>
+  </data>
+  <data name="UD_Hint_Exit" xml:space="preserve">
+    <value>ปิดตัวออกแบบ</value>
+  </data>
+  <data name="UD_Capt_Delete" xml:space="preserve">
+    <value>&amp;ลบ</value>
+  </data>
+  <data name="UD_Hint_Delete" xml:space="preserve">
+    <value>ลบตัวอักษร</value>
+  </data>
+  <data name="UD_Capt_SelectAll" xml:space="preserve">
+    <value>&amp;เลือกทั้งหมด</value>
+  </data>
+  <data name="UD_Hint_SelectAll" xml:space="preserve">
+    <value>เลือกตัวอักษรทั้งหมดในเอกสาร</value>
+  </data>
+  <data name="UD_Capt_SaveAll" xml:space="preserve">
+    <value>&amp;บันทึกทั้งหมด</value>
+  </data>
+  <data name="UD_Hint_SaveAll" xml:space="preserve">
+    <value>บันทึกรายงานทั้งหมด</value>
+  </data>
+  <data name="UD_Group_Window" xml:space="preserve">
+    <value>&amp;วินโดว์</value>
+  </data>
+  <data name="UD_Capt_TabbedInterface" xml:space="preserve">
+    <value>&amp;แท็บอินเทอร์เฟซ</value>
+  </data>
+  <data name="UD_Hint_TabbedInterface" xml:space="preserve">
+    <value>สลับระหว่างโหมดเค้าโครง MDI แบบแท็บและหน้าต่าง</value>
+  </data>
+  <data name="UD_Capt_MdiCascade" xml:space="preserve">
+    <value>&amp;การเชื่อมโยง</value>
+  </data>
+  <data name="UD_Hint_MdiCascade" xml:space="preserve">
+    <value>จัดเรียงเอกสารที่เปิดอยู่ทั้งหมดเรียงซ้อนกันเพื่อให้ซ้อนทับกัน</value>
+  </data>
+  <data name="UD_Capt_MdiTileHorizontal" xml:space="preserve">
+    <value>&amp;ตารางแนวนอน</value>
+  </data>
+  <data name="UD_Hint_MdiTileHorizontal" xml:space="preserve">
+    <value>จัดเรียงเอกสารที่เปิดอยู่ทั้งหมดจากบนลงล่าง</value>
+  </data>
+  <data name="UD_Capt_MdiTileVertical" xml:space="preserve">
+    <value>&amp;ตารางแนวตั้ง</value>
+  </data>
+  <data name="UD_Hint_MdiTileVertical" xml:space="preserve">
+    <value>จัดเรียงเอกสารที่เปิดอยู่ทั้งหมดจากซ้ายไปขวา</value>
+  </data>
+  <data name="UD_Capt_Close" xml:space="preserve">
+    <value>&amp;ปิด</value>
+  </data>
+  <data name="UD_Hint_Close" xml:space="preserve">
+    <value>ปิดรายงาน</value>
+  </data>
+  <data name="UD_Capt_ZoomToolbarName" xml:space="preserve">
+    <value>แถบเครื่องมือซูม</value>
+  </data>
+  <data name="UD_Capt_ZoomOut" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="UD_Hint_ZoomOut" xml:space="preserve">
+    <value>ซูมออกจากพื้นผิวการออกแบบ</value>
+  </data>
+  <data name="UD_Capt_Zoom" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="UD_Hint_Zoom" xml:space="preserve">
+    <value>เลือกหรือป้อนปัจจัยการซูม</value>
+  </data>
+  <data name="UD_Capt_ZoomIn" xml:space="preserve">
+    <value>ซูมเข้า</value>
+  </data>
+  <data name="UD_Hint_ZoomIn" xml:space="preserve">
+    <value>ขยายพื้นผิวการออกแบบ</value>
+  </data>
+  <data name="UD_XtraReportsToolboxCategoryName" xml:space="preserve">
+    <value>การควบคุมมาตรฐาน</value>
+  </data>
+  <data name="Verb_ReportWizard" xml:space="preserve">
+    <value>ออกแบบในตัวช่วยสร้างรายงาน...</value>
+  </data>
+  <data name="Verb_EditBands" xml:space="preserve">
+    <value>แก้ไขและจัดลำดับแบนด์ใหม่...</value>
+  </data>
+  <data name="Verb_EditBindings" xml:space="preserve">
+    <value>แก้ไขการเชื่อมโยง...</value>
+  </data>
+  <data name="BarText_Toolbar" xml:space="preserve">
+    <value>แถบเครื่องมือ</value>
+  </data>
+  <data name="BarText_StatusBar" xml:space="preserve">
+    <value>แถบสถานะ</value>
+  </data>
+  <data name="BarText_MainMenu" xml:space="preserve">
+    <value>เมนูหลัก</value>
+  </data>
+  <data name="SB_TTip_Stop" xml:space="preserve">
+    <value>หยุด</value>
+  </data>
+  <data name="TB_TTip_Search" xml:space="preserve">
+    <value>ค้นหา</value>
+  </data>
+  <data name="TB_TTip_Customize" xml:space="preserve">
+    <value>ปรับแต่ง</value>
+  </data>
+  <data name="RibbonPreview_Open_Caption" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="TB_TTip_Open" xml:space="preserve">
+    <value>เปิดเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_Save_Caption" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="TB_TTip_Save" xml:space="preserve">
+    <value>บันทึกเอกสาร</value>
+  </data>
+  <data name="MenuItem_Print" xml:space="preserve">
+    <value>&amp;พิมพ์...</value>
+  </data>
+  <data name="TB_TTip_Print" xml:space="preserve">
+    <value>พิมพ์</value>
+  </data>
+  <data name="MenuItem_PrintDirect" xml:space="preserve">
+    <value>P&amp;rint</value>
+  </data>
+  <data name="TB_TTip_PrintDirect" xml:space="preserve">
+    <value>พิมพ์ด่วน</value>
+  </data>
+  <data name="MenuItem_PageSetup" xml:space="preserve">
+    <value>ตั้งค่า&amp;หน้า...</value>
+  </data>
+  <data name="TB_TTip_PageSetup" xml:space="preserve">
+    <value>การตั้งค่าหน้า</value>
+  </data>
+  <data name="TB_TTip_EditPageHF" xml:space="preserve">
+    <value>ส่วนหัวและส่วนท้าย</value>
+  </data>
+  <data name="TB_TTip_Scale" xml:space="preserve">
+    <value>มาตราส่วน</value>
+  </data>
+  <data name="TB_TTip_HandTool" xml:space="preserve">
+    <value>เครื่องมือ</value>
+  </data>
+  <data name="TB_TTip_Magnifier" xml:space="preserve">
+    <value>แว่นขยาย</value>
+  </data>
+  <data name="TB_TTip_ZoomOut" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="TB_TTip_Zoom" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="TB_TTip_ZoomIn" xml:space="preserve">
+    <value>ซูมเข้า</value>
+  </data>
+  <data name="TB_TTip_FirstPage" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="TB_TTip_PreviousPage" xml:space="preserve">
+    <value>หน้าที่แล้ว</value>
+  </data>
+  <data name="TB_TTip_NextPage" xml:space="preserve">
+    <value>หน้าต่อไป</value>
+  </data>
+  <data name="TB_TTip_LastPage" xml:space="preserve">
+    <value>หน้าสุดท้าย</value>
+  </data>
+  <data name="TB_TTip_MultiplePages" xml:space="preserve">
+    <value>หลายหน้า</value>
+  </data>
+  <data name="MenuItem_BackgrColor" xml:space="preserve">
+    <value>&amp;สี...</value>
+  </data>
+  <data name="TB_TTip_Backgr" xml:space="preserve">
+    <value>พื้นหลัง</value>
+  </data>
+  <data name="MenuItem_Watermark" xml:space="preserve">
+    <value>&amp;ลายน้ำ...</value>
+  </data>
+  <data name="TB_TTip_Watermark" xml:space="preserve">
+    <value>ลายน้ำ</value>
+  </data>
+  <data name="TB_TTip_Export" xml:space="preserve">
+    <value>ส่งออกเอกสาร...</value>
+  </data>
+  <data name="TB_TTip_Send" xml:space="preserve">
+    <value>ส่งทาง E-Mail...</value>
+  </data>
+  <data name="MenuItem_Exit" xml:space="preserve">
+    <value>&amp;ออก</value>
+  </data>
+  <data name="TB_TTip_Close" xml:space="preserve">
+    <value>ปิดการแสดงตัวอย่าง</value>
+  </data>
+  <data name="MenuItem_PdfDocument" xml:space="preserve">
+    <value>ไฟล์ PDF</value>
+  </data>
+  <data name="MenuItem_HtmDocument" xml:space="preserve">
+    <value>ไฟล์ HTML</value>
+  </data>
+  <data name="MenuItem_MhtDocument" xml:space="preserve">
+    <value>ไฟล์ MHT</value>
+  </data>
+  <data name="MenuItem_RtfDocument" xml:space="preserve">
+    <value>ไฟล์ RTF</value>
+  </data>
+  <data name="MenuItem_XlsDocument" xml:space="preserve">
+    <value>ไฟล์ XLS</value>
+  </data>
+  <data name="MenuItem_XlsxDocument" xml:space="preserve">
+    <value>ไฟล์ XLSX</value>
+  </data>
+  <data name="MenuItem_CsvDocument" xml:space="preserve">
+    <value>ไฟล์ CSV</value>
+  </data>
+  <data name="MenuItem_TxtDocument" xml:space="preserve">
+    <value>ไฟล์ Text</value>
+  </data>
+  <data name="MenuItem_GraphicDocument" xml:space="preserve">
+    <value>ไฟล์รูป</value>
+  </data>
+  <data name="RepTabCtl_Designer" xml:space="preserve">
+    <value>ออกแบบ</value>
+  </data>
+  <data name="RepTabCtl_Preview" xml:space="preserve">
+    <value>ดูตัวอย่าง</value>
+  </data>
+  <data name="RepTabCtl_HtmlView" xml:space="preserve">
+    <value>มุมมอง HTML</value>
+  </data>
+  <data name="ScriptEditor_Validate" xml:space="preserve">
+    <value>ตรวจสอบ</value>
+  </data>
+  <data name="RepTabCtl_Scripts" xml:space="preserve">
+    <value>สคริปต์</value>
+  </data>
+  <data name="RepTabCtl_ReportStatus" xml:space="preserve">
+    <value>{0} {{ ชนิดกระดาษ: {1} }}</value>
+  </data>
+  <data name="BandDsg_QuantityPerPage" xml:space="preserve">
+    <value>หนึ่งวงต่อหน้า</value>
+  </data>
+  <data name="UD_XtraReportsPointerItemCaption" xml:space="preserve">
+    <value>ตัวชี้</value>
+  </data>
+  <data name="CatBehavior" xml:space="preserve">
+    <value>อาการ</value>
+  </data>
+  <data name="CatAppearance" xml:space="preserve">
+    <value>ลักษณะ</value>
+  </data>
+  <data name="CatDesign" xml:space="preserve">
+    <value>ออกแบบ</value>
+  </data>
+  <data name="CatNavigation" xml:space="preserve">
+    <value>การนำทาง</value>
+  </data>
+  <data name="CatParameters" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="CatData" xml:space="preserve">
+    <value>ข้อมูล</value>
+  </data>
+  <data name="CatPageSettings" xml:space="preserve">
+    <value>การตั้งค่าหน้า</value>
+  </data>
+  <data name="CatPrinting" xml:space="preserve">
+    <value>การพิมพ์</value>
+  </data>
+  <data name="CatStructure" xml:space="preserve">
+    <value>โครงสร้าง</value>
+  </data>
+  <data name="Msg_WarningControlsAreOverlapped" xml:space="preserve">
+    <value>คำเตือนการส่งออก: การควบคุมต่อไปนี้ทับซ้อนกันและอาจส่งออกไปยัง HTML, RTF, XLS, XLSX, CSV และข้อความไม่ถูกต้อง - {0}</value>
+  </data>
+  <data name="Msg_WarningControlsAreOutOfMargin" xml:space="preserve">
+    <value>คำเตือนการพิมพ์: ตัวควบคุมต่อไปนี้อยู่นอกขอบกระดาษด้านขวาและจะทำให้ต้องพิมพ์หน้าเพิ่มเติม - {0}</value>
+  </data>
+  <data name="Msg_WarningUnsavedReports" xml:space="preserve">
+    <value>คำเตือนการพิมพ์: บันทึกรายงานต่อไปนี้เพื่อดูรายงานย่อยที่ใช้การเปลี่ยนแปลงล่าสุด - {0}</value>
+  </data>
+  <data name="NoneString" xml:space="preserve">
+    <value>(ไม่มี)</value>
+  </data>
+  <data name="UD_Title_ReportExplorer_Components" xml:space="preserve">
+    <value>ส่วนประกอบ</value>
+  </data>
+  <data name="UD_Hint_ViewTabs" xml:space="preserve">
+    <value>เปลี่ยนไปที่แท็บ {0}</value>
+  </data>
+  <data name="DesignerStatus_Location" xml:space="preserve">
+    <value>สถานที่</value>
+  </data>
+  <data name="DesignerStatus_Size" xml:space="preserve">
+    <value>ขนาด</value>
+  </data>
+  <data name="CatLayout" xml:space="preserve">
+    <value>เค้าโครง</value>
+  </data>
+  <data name="UD_Hint_ViewBars" xml:space="preserve">
+    <value>ซ่อนหรือแสดง {0}</value>
+  </data>
+  <data name="UD_Hint_ViewDockPanels" xml:space="preserve">
+    <value>ซ่อนหรือแสดงหน้าต่าง {0}</value>
+  </data>
+  <data name="DesignerStatus_Height" xml:space="preserve">
+    <value>ความสูง</value>
+  </data>
+  <data name="ScriptEditor_ScriptsAreValid" xml:space="preserve">
+    <value>สคริปต์ทั้งหมดถูกต้อง</value>
+  </data>
+  <data name="Cmd_Commands" xml:space="preserve">
+    <value>คำสั่ง</value>
+  </data>
+  <data name="Cmd_ViewCode" xml:space="preserve">
+    <value>&amp;ดูรหัส</value>
+  </data>
+  <data name="Cmd_BringToFront" xml:space="preserve">
+    <value>&amp;นำไปด้านหน้า</value>
+  </data>
+  <data name="Cmd_SendToBack" xml:space="preserve">
+    <value>&amp;ส่งกลับ</value>
+  </data>
+  <data name="Cmd_AlignToGrid" xml:space="preserve">
+    <value>&amp;จัดแนวเป็นตาราง</value>
+  </data>
+  <data name="Cmd_TableInsertRowAbove" xml:space="preserve">
+    <value>&amp;แถวด้านบน</value>
+  </data>
+  <data name="Cmd_TableInsertRowBelow" xml:space="preserve">
+    <value>&amp;แถวด้านล่าง</value>
+  </data>
+  <data name="Cmd_TableInsertColumnToLeft" xml:space="preserve">
+    <value>&amp;คอลัมน์ไปทางซ้าย</value>
+  </data>
+  <data name="Cmd_TableInsertColumnToRight" xml:space="preserve">
+    <value>&amp;คอลัมน์ไปทางขวา</value>
+  </data>
+  <data name="Cmd_TableInsertCell" xml:space="preserve">
+    <value>&amp;เซลล์</value>
+  </data>
+  <data name="Cmd_TableInsert" xml:space="preserve">
+    <value>&amp;แทรก</value>
+  </data>
+  <data name="Cmd_TableDeleteRow" xml:space="preserve">
+    <value>&amp;แถว</value>
+  </data>
+  <data name="Cmd_TableDeleteColumn" xml:space="preserve">
+    <value>&amp;คอลัมน์</value>
+  </data>
+  <data name="Cmd_TableDeleteCell" xml:space="preserve">
+    <value>&amp;เซลล์</value>
+  </data>
+  <data name="Cmd_TableDelete" xml:space="preserve">
+    <value>&amp;ลบ</value>
+  </data>
+  <data name="Cmd_TableConvertToLabels" xml:space="preserve">
+    <value>&amp;แปลงเป็นป้ายกำกับ</value>
+  </data>
+  <data name="Cmd_Cut" xml:space="preserve">
+    <value>&amp;ตัด</value>
+  </data>
+  <data name="Cmd_Copy" xml:space="preserve">
+    <value>&amp;คัดลอก</value>
+  </data>
+  <data name="Cmd_Paste" xml:space="preserve">
+    <value>&amp;วาง</value>
+  </data>
+  <data name="Cmd_Delete" xml:space="preserve">
+    <value>&amp;ลบ</value>
+  </data>
+  <data name="Cmd_TopMargin" xml:space="preserve">
+    <value>มาร์จิ้นสูงสุด</value>
+  </data>
+  <data name="Cmd_ReportHeader" xml:space="preserve">
+    <value>ส่วนหัวรายงาน</value>
+  </data>
+  <data name="Cmd_PageHeader" xml:space="preserve">
+    <value>ส่วนหัวของหน้า</value>
+  </data>
+  <data name="Cmd_GroupHeader" xml:space="preserve">
+    <value>ส่วนหัวของกลุ่ม</value>
+  </data>
+  <data name="Cmd_Detail" xml:space="preserve">
+    <value>รายละเอียด</value>
+  </data>
+  <data name="Cmd_GroupFooter" xml:space="preserve">
+    <value>ส่วนท้ายของกลุ่ม</value>
+  </data>
+  <data name="Cmd_ReportFooter" xml:space="preserve">
+    <value>ส่วนท้ายรายงาน</value>
+  </data>
+  <data name="Cmd_PageFooter" xml:space="preserve">
+    <value>ส่วนท้ายของหน้า</value>
+  </data>
+  <data name="Cmd_BottomMargin" xml:space="preserve">
+    <value>ขอบล่าง</value>
+  </data>
+  <data name="Cmd_InsertBand" xml:space="preserve">
+    <value>&amp;แทรกแบนด์</value>
+  </data>
+  <data name="Cmd_InsertDetailReport" xml:space="preserve">
+    <value>แทรกรายงานรายละเอียด</value>
+  </data>
+  <data name="Cmd_BandMoveUp" xml:space="preserve">
+    <value>ขยับขึ้น</value>
+  </data>
+  <data name="Cmd_BandMoveDown" xml:space="preserve">
+    <value>ย้ายลง</value>
+  </data>
+  <data name="Cmd_Properties" xml:space="preserve">
+    <value>คุณสมบัติ</value>
+  </data>
+  <data name="Cmd_InsertUnboundDetailReport" xml:space="preserve">
+    <value>หลุด</value>
+  </data>
+  <data name="STag_Capt_Format" xml:space="preserve">
+    <value>{0} {1}</value>
+  </data>
+  <data name="STag_Capt_Tasks" xml:space="preserve">
+    <value>งาน</value>
+  </data>
+  <data name="STag_Name_ColumnMode" xml:space="preserve">
+    <value>โหมดหลายคอลัมน์</value>
+  </data>
+  <data name="STag_Name_ColumnLayout" xml:space="preserve">
+    <value>เค้าโครงหลายคอลัมน์</value>
+  </data>
+  <data name="STag_Name_ColumnCount" xml:space="preserve">
+    <value>จำนวนคอลัมน์</value>
+  </data>
+  <data name="STag_Name_ColumnWidth" xml:space="preserve">
+    <value>ความกว้างของคอลัมน์</value>
+  </data>
+  <data name="STag_Name_ColumnSpacing" xml:space="preserve">
+    <value>ระยะห่างคอลัมน์</value>
+  </data>
+  <data name="UD_Title_FieldList_NonePickerNodeText" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="UD_Title_FieldList_AddNewDataSourceText" xml:space="preserve">
+    <value>เพิ่มแหล่งข้อมูลใหม่</value>
+  </data>
+  <data name="EmptyString" xml:space="preserve">
+    <value>แถวว่าง</value>
+  </data>
+  <data name="Button_Help" xml:space="preserve">
+    <value>ช่วยเหลือ</value>
+  </data>
+  <data name="Button_Apply" xml:space="preserve">
+    <value>สมัคร</value>
+  </data>
+  <data name="PreviewForm_Caption" xml:space="preserve">
+    <value>ดูตัวอย่าง</value>
+  </data>
+  <data name="MenuItem_PageLayout" xml:space="preserve">
+    <value>&amp;เค้าโครงหน้า</value>
+  </data>
+  <data name="SaveDlg_FilterBmp" xml:space="preserve">
+    <value>รูปแบบบิตแมป BMP</value>
+  </data>
+  <data name="SaveDlg_FilterGif" xml:space="preserve">
+    <value>รูปแบบการแลกเปลี่ยนกราฟิก GIF</value>
+  </data>
+  <data name="SaveDlg_FilterJpeg" xml:space="preserve">
+    <value>รูปแบบการแลกเปลี่ยนไฟล์ JPEG</value>
+  </data>
+  <data name="SaveDlg_FilterPng" xml:space="preserve">
+    <value>รูปแบบกราฟิกเครือข่ายแบบพกพา PNG</value>
+  </data>
+  <data name="SaveDlg_FilterTiff" xml:space="preserve">
+    <value>รูปแบบไฟล์ภาพแท็ก TIFF</value>
+  </data>
+  <data name="SaveDlg_FilterEmf" xml:space="preserve">
+    <value>EMF Enhanced Windows Metafile</value>
+  </data>
+  <data name="SaveDlg_FilterWmf" xml:space="preserve">
+    <value>WMF Windows Metafile</value>
+  </data>
+  <data name="SB_ZoomFactor" xml:space="preserve">
+    <value>ปัจจัยการซูม: </value>
+  </data>
+  <data name="SB_PageInfo" xml:space="preserve">
+    <value>{0} of {1}</value>
+  </data>
+  <data name="MPForm_Lbl_Pages" xml:space="preserve">
+    <value>หน้า</value>
+  </data>
+  <data name="Msg_ErrorTitle" xml:space="preserve">
+    <value>ข้อผิดพลาด</value>
+  </data>
+  <data name="Msg_UnavailableNetPrinter" xml:space="preserve">
+    <value>เครื่องพิมพ์สุทธิไม่พร้อมใช้งาน</value>
+  </data>
+  <data name="Msg_NeedPrinter" xml:space="preserve">
+    <value>ไม่มีเครื่องพิมพ์ติดตั้ง</value>
+  </data>
+  <data name="Msg_WrongPrinter" xml:space="preserve">
+    <value>ชื่อเครื่องพิมพ์ไม่ถูกต้อง โปรดตรวจสอบการตั้งค่าเครื่องพิมพ์</value>
+  </data>
+  <data name="Msg_WrongPrinting" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดระหว่างการพิมพ์เอกสาร</value>
+  </data>
+  <data name="Msg_WrongPageSettings" xml:space="preserve">
+    <value>เครื่องพิมพ์ปัจจุบันไม่รองรับขนาดกระดาษที่เลือก
+ดำเนินการพิมพ์ต่อไปหรือไม่</value>
+  </data>
+  <data name="Msg_CustomDrawWarning" xml:space="preserve">
+    <value>คำเตือน!</value>
+  </data>
+  <data name="Msg_PageMarginsWarning" xml:space="preserve">
+    <value>ระยะขอบอย่างน้อยหนึ่งรายการถูกตั้งค่าไว้นอกพื้นที่พิมพ์ของหน้า ดำเนินการต่อหรือไม่</value>
+  </data>
+  <data name="Msg_IncorrectPageRange" xml:space="preserve">
+    <value>นี่ไม่ใช่ช่วงหน้าที่ถูกต้อง</value>
+  </data>
+  <data name="Msg_FontInvalidNumber" xml:space="preserve">
+    <value>ไม่สามารถกำหนดขนาดตัวอักษรเป็นศูนย์หรือตัวเลขติดลบได้</value>
+  </data>
+  <data name="Msg_NotSupportedFont" xml:space="preserve">
+    <value>ยังไม่รองรับแบบอักษรนี้</value>
+  </data>
+  <data name="Msg_IncorrectZoomFactor" xml:space="preserve">
+    <value>ตัวเลขต้องอยู่ระหว่าง {0} ถึง {1}</value>
+  </data>
+  <data name="Msg_InvalidMeasurement" xml:space="preserve">
+    <value>นี่ไม่ใช่การวัดที่ถูกต้อง</value>
+  </data>
+  <data name="Msg_CannotAccessFile" xml:space="preserve">
+    <value>กระบวนการนี้ไม่สามารถเข้าถึงไฟล์ "{0}" ได้เนื่องจากถูกใช้โดยกระบวนการอื่น</value>
+  </data>
+  <data name="Msg_FileReadOnly" xml:space="preserve">
+    <value>ไฟล์ "{0}" ตั้งค่าเป็นแบบอ่านอย่างเดียวลองอีกครั้งโดยใช้ชื่อไฟล์อื่น</value>
+  </data>
+  <data name="Msg_OpenFileQuestion" xml:space="preserve">
+    <value>คุณต้องการเปิดไฟล์นี้หรือไม่?</value>
+  </data>
+  <data name="Msg_OpenFileQuestionCaption" xml:space="preserve">
+    <value>ส่งออก</value>
+  </data>
+  <data name="Msg_CantFitBarcodeToControlBounds" xml:space="preserve">
+    <value>ขอบเขตของการควบคุมมีขนาดเล็กเกินไปสำหรับบาร์โค้ด</value>
+  </data>
+  <data name="Msg_InvalidBarcodeText" xml:space="preserve">
+    <value>มีอักขระที่ไม่ถูกต้องในข้อความ</value>
+  </data>
+  <data name="Msg_InvalidBarcodeTextFormat" xml:space="preserve">
+    <value>รูปแบบข้อความไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_InvalidBarcodeData" xml:space="preserve">
+    <value>ข้อมูลไบนารีต้องมีความยาวไม่เกิน 1,033 ไบต์</value>
+  </data>
+  <data name="Msg_InvPropName" xml:space="preserve">
+    <value>ชื่อคุณสมบัติไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_SearchDialogFinishedSearching" xml:space="preserve">
+    <value>ค้นหาเอกสารเสร็จแล้ว</value>
+  </data>
+  <data name="Msg_SearchDialogTotalFound" xml:space="preserve">
+    <value>พบทั้งหมด: </value>
+  </data>
+  <data name="Msg_SearchDialogReady" xml:space="preserve">
+    <value>พร้อม</value>
+  </data>
+  <data name="Msg_NoDifferentFilesInStream" xml:space="preserve">
+    <value>ไม่สามารถส่งออกเอกสารไปยังสตรีมในโหมด DifferentFiles ใช้โหมด SingleFile หรือ SingleFilePageByPage แทน</value>
+  </data>
+  <data name="Msg_BigFileToCreate" xml:space="preserve">
+    <value>ไฟล์ที่ส่งออกมีขนาดใหญ่เกินไป พยายามลดจำนวนหน้าหรือแบ่งออกเป็นหลาย ๆ เอกสาร.</value>
+  </data>
+  <data name="Msg_BigFileToCreateJPEG" xml:space="preserve">
+    <value>ไฟล์ที่ส่งออกมีขนาดใหญ่เกินไปที่จะสร้างไฟล์ JPEG โปรดเลือกรูปแบบภาพอื่นหรือโหมดการส่งออกอื่น</value>
+  </data>
+  <data name="Msg_BigBitmapToCreate" xml:space="preserve">
+    <value>ไฟล์ที่ส่งออกมีขนาดใหญ่เกินไป โปรดพยายามลดความละเอียดของภาพ
+หรือเลือกโหมดการส่งออกอื่น</value>
+  </data>
+  <data name="Msg_XlsMoreThanMaxRows" xml:space="preserve">
+    <value>ไฟล์ XLS ที่สร้างขึ้นมีขนาดใหญ่เกินไปสำหรับรูปแบบ XLS เนื่องจากมีมากกว่า 65,536 แถว
+โปรดลองใช้รูปแบบ XLSX แทน</value>
+  </data>
+  <data name="Msg_XlsMoreThanMaxColumns" xml:space="preserve">
+    <value>ไฟล์ XLS ที่สร้างขึ้นมีขนาดใหญ่เกินไปสำหรับรูปแบบ XLS เนื่องจากมีมากกว่า 256 คอลัมน์
+โปรดลองใช้รูปแบบ XLSX แทน</value>
+  </data>
+  <data name="Msg_XlsxMoreThanMaxRows" xml:space="preserve">
+    <value>ไฟล์ XLSX ที่สร้างขึ้นมีขนาดใหญ่เกินไปสำหรับรูปแบบ XLSX เนื่องจากมีมากกว่า 1,048,576 แถว
+โปรดพยายามลดจำนวนแถวในรายงานของคุณและส่งออกรายงานเป็น XLSX อีกครั้ง</value>
+  </data>
+  <data name="Msg_XlsxMoreThanMaxColumns" xml:space="preserve">
+    <value>เขาสร้างไฟล์ XLSX ใหญ่เกินไปสำหรับรูปแบบ XLSX เนื่องจากมีมากกว่า 16,384 คอลัมน์
+โปรดพยายามลดจำนวนคอลัมน์ในรายงานของคุณและส่งออกรายงานเป็น XLSX อีกครั้ง</value>
+  </data>
+  <data name="Msg_FileDoesNotHavePrnxExtention" xml:space="preserve">
+    <value>ไฟล์ที่ระบุไม่มีนามสกุล PRNX ดำเนินการต่อ?</value>
+  </data>
+  <data name="Msg_FileDoesNotContainValidXml" xml:space="preserve">
+    <value>ไฟล์ที่ระบุไม่มีข้อมูล XML ที่ถูกต้องในรูปแบบ PRNX การโหลดหยุดลง</value>
+  </data>
+  <data name="Msg_GoToNonExistentPage" xml:space="preserve">
+    <value>ไม่มีหน้าหมายเลข {0} ในเอกสารนี้</value>
+  </data>
+  <data name="Msg_Caption" xml:space="preserve">
+    <value>การพิมพ์</value>
+  </data>
+  <data name="Msg_PathTooLong" xml:space="preserve">
+    <value>เส้นทางยาวเกินไป
+ลองใช้ชื่อที่สั้นกว่านี้</value>
+  </data>
+  <data name="Msg_CannotLoadDocument" xml:space="preserve">
+    <value>ไม่สามารถโหลดไฟล์ที่ระบุได้เนื่องจากไม่มีข้อมูล XML ที่ถูกต้องหรือเกินขนาดที่อนุญาต</value>
+  </data>
+  <data name="Msg_NoParameters" xml:space="preserve">
+    <value>ไม่มีพารามิเตอร์ที่ระบุ: {0}</value>
+  </data>
+  <data name="Msg_SeparatorCannotBeEmptyString" xml:space="preserve">
+    <value>ตัวคั่นต้องไม่เป็นสตริงว่าง</value>
+  </data>
+  <data name="Msg_InvalidatePath" xml:space="preserve">
+    <value>ไม่พบเส้นทางที่ระบุ</value>
+  </data>
+  <data name="Msg_FileAlreadyExists" xml:space="preserve">
+    <value>มีไฟล์เอาต์พุตอยู่แล้ว คลิกตกลงเพื่อเขียนทับ</value>
+  </data>
+  <data name="Margin_Inch" xml:space="preserve">
+    <value>นิ้ว</value>
+  </data>
+  <data name="Margin_Millimeter" xml:space="preserve">
+    <value>มิลลิเมตร</value>
+  </data>
+  <data name="Margin_TopMargin" xml:space="preserve">
+    <value>อัตรากำไรสูงสุด</value>
+  </data>
+  <data name="Margin_BottomMargin" xml:space="preserve">
+    <value>ขอบล่าง</value>
+  </data>
+  <data name="Margin_LeftMargin" xml:space="preserve">
+    <value>ขอบซ้าย</value>
+  </data>
+  <data name="Margin_RightMargin" xml:space="preserve">
+    <value>ขอบขวา</value>
+  </data>
+  <data name="Shapes_Rectangle" xml:space="preserve">
+    <value>สี่เหลี่ยมผืนผ้า</value>
+  </data>
+  <data name="Shapes_Ellipse" xml:space="preserve">
+    <value>วงรี</value>
+  </data>
+  <data name="Shapes_Arrow" xml:space="preserve">
+    <value>ลูกศร</value>
+  </data>
+  <data name="Shapes_TopArrow" xml:space="preserve">
+    <value>ลูกศรบน</value>
+  </data>
+  <data name="Shapes_BottomArrow" xml:space="preserve">
+    <value>ลูกศรล่าง</value>
+  </data>
+  <data name="Shapes_LeftArrow" xml:space="preserve">
+    <value>ลูกศรซ้าย</value>
+  </data>
+  <data name="Shapes_RightArrow" xml:space="preserve">
+    <value>ลูกศรขวา</value>
+  </data>
+  <data name="Shapes_Polygon" xml:space="preserve">
+    <value>รูปหลายเหลี่ยม</value>
+  </data>
+  <data name="Shapes_Triangle" xml:space="preserve">
+    <value>สามเหลี่ยม</value>
+  </data>
+  <data name="Shapes_Square" xml:space="preserve">
+    <value>สแควร์</value>
+  </data>
+  <data name="Shapes_Pentagon" xml:space="preserve">
+    <value>เพนตากอน</value>
+  </data>
+  <data name="Shapes_Hexagon" xml:space="preserve">
+    <value>หกเหลี่ยม</value>
+  </data>
+  <data name="Shapes_Octagon" xml:space="preserve">
+    <value>แปดเหลี่ยม</value>
+  </data>
+  <data name="Shapes_Star" xml:space="preserve">
+    <value>ดาว</value>
+  </data>
+  <data name="Shapes_ThreePointStar" xml:space="preserve">
+    <value>ดาว 3 จุด</value>
+  </data>
+  <data name="Shapes_FourPointStar" xml:space="preserve">
+    <value>ดาว 4 จุด</value>
+  </data>
+  <data name="Shapes_FivePointStar" xml:space="preserve">
+    <value>ดาว 5 จุด</value>
+  </data>
+  <data name="Shapes_SixPointStar" xml:space="preserve">
+    <value>ดาว 6 จุด</value>
+  </data>
+  <data name="Shapes_EightPointStar" xml:space="preserve">
+    <value>ดาว 8 จุด</value>
+  </data>
+  <data name="Shapes_Line" xml:space="preserve">
+    <value>เส้น</value>
+  </data>
+  <data name="Shapes_SlantLine" xml:space="preserve">
+    <value>เส้นเอียง</value>
+  </data>
+  <data name="Shapes_BackslantLine" xml:space="preserve">
+    <value>กลับเส้นเอียง</value>
+  </data>
+  <data name="Shapes_HorizontalLine" xml:space="preserve">
+    <value>เส้นแนวนอน</value>
+  </data>
+  <data name="Shapes_VerticalLine" xml:space="preserve">
+    <value>เส้นแนวตั้ง</value>
+  </data>
+  <data name="Shapes_Cross" xml:space="preserve">
+    <value>ข้าม</value>
+  </data>
+  <data name="Shapes_Brace" xml:space="preserve">
+    <value>รั้ง</value>
+  </data>
+  <data name="Shapes_Bracket" xml:space="preserve">
+    <value>วงเล็บ</value>
+  </data>
+  <data name="ScrollingInfo_Page" xml:space="preserve">
+    <value>หน้า</value>
+  </data>
+  <data name="WMForm_PictureDlg_Title" xml:space="preserve">
+    <value>เลือกรูปภาพ</value>
+  </data>
+  <data name="WMForm_ImageStretch" xml:space="preserve">
+    <value>ยืด</value>
+  </data>
+  <data name="WMForm_ImageClip" xml:space="preserve">
+    <value>คลิป</value>
+  </data>
+  <data name="WMForm_ImageZoom" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="WMForm_Watermark_Asap" xml:space="preserve">
+    <value>เร็วที่สุด</value>
+  </data>
+  <data name="WMForm_Watermark_Confidential" xml:space="preserve">
+    <value>ข้อมูลลับ</value>
+  </data>
+  <data name="WMForm_Watermark_Copy" xml:space="preserve">
+    <value>สำเนา</value>
+  </data>
+  <data name="WMForm_Watermark_DoNotCopy" xml:space="preserve">
+    <value>ห้ามคัดลอก</value>
+  </data>
+  <data name="WMForm_Watermark_Draft" xml:space="preserve">
+    <value>ร่าง</value>
+  </data>
+  <data name="WMForm_Watermark_Evaluation" xml:space="preserve">
+    <value>การประเมิน</value>
+  </data>
+  <data name="WMForm_Watermark_Original" xml:space="preserve">
+    <value>เดิม</value>
+  </data>
+  <data name="WMForm_Watermark_Personal" xml:space="preserve">
+    <value>ส่วนบุคคล</value>
+  </data>
+  <data name="WMForm_Watermark_Sample" xml:space="preserve">
+    <value>ตัวอย่าง</value>
+  </data>
+  <data name="WMForm_Watermark_TopSecret" xml:space="preserve">
+    <value>ความลับสุดยอด</value>
+  </data>
+  <data name="WMForm_Watermark_Urgent" xml:space="preserve">
+    <value>ด่วน</value>
+  </data>
+  <data name="WMForm_Direction_Horizontal" xml:space="preserve">
+    <value>แนวนอน</value>
+  </data>
+  <data name="WMForm_Direction_Vertical" xml:space="preserve">
+    <value>แนวตั้ง</value>
+  </data>
+  <data name="WMForm_Direction_BackwardDiagonal" xml:space="preserve">
+    <value>เส้นทแยงมุมย้อนกลับ</value>
+  </data>
+  <data name="WMForm_Direction_ForwardDiagonal" xml:space="preserve">
+    <value>ไปข้างหน้าในแนวทแยง</value>
+  </data>
+  <data name="WMForm_VertAlign_Bottom" xml:space="preserve">
+    <value>ด้านล่าง</value>
+  </data>
+  <data name="WMForm_VertAlign_Middle" xml:space="preserve">
+    <value>กลาง</value>
+  </data>
+  <data name="WMForm_VertAlign_Top" xml:space="preserve">
+    <value>ด้านบน</value>
+  </data>
+  <data name="WMForm_HorzAlign_Left" xml:space="preserve">
+    <value>ซ้าย</value>
+  </data>
+  <data name="WMForm_HorzAlign_Center" xml:space="preserve">
+    <value>ศูนย์</value>
+  </data>
+  <data name="WMForm_HorzAlign_Right" xml:space="preserve">
+    <value>ขวา</value>
+  </data>
+  <data name="WMForm_ZOrderRgrItem_InFront" xml:space="preserve">
+    <value>amp;ข้างหน้า</value>
+  </data>
+  <data name="WMForm_ZOrderRgrItem_Behind" xml:space="preserve">
+    <value>&amp;ข้างหลัง</value>
+  </data>
+  <data name="WMForm_PageRangeRgrItem_All" xml:space="preserve">
+    <value>&amp;ทั้งหมด</value>
+  </data>
+  <data name="WMForm_PageRangeRgrItem_Pages" xml:space="preserve">
+    <value>&amp;หน้า:</value>
+  </data>
+  <data name="SaveDlg_Title" xml:space="preserve">
+    <value>บันทึกเป็น</value>
+  </data>
+  <data name="SaveDlg_FilterPdf" xml:space="preserve">
+    <value>เอกสาร PDF</value>
+  </data>
+  <data name="SaveDlg_FilterHtm" xml:space="preserve">
+    <value>เอกสาร HTML</value>
+  </data>
+  <data name="SaveDlg_FilterMht" xml:space="preserve">
+    <value>เอกสาร MHT</value>
+  </data>
+  <data name="SaveDlg_FilterRtf" xml:space="preserve">
+    <value>เอกสาร Rich Text</value>
+  </data>
+  <data name="SaveDlg_FilterXls" xml:space="preserve">
+    <value>เอกสาร XLS</value>
+  </data>
+  <data name="SaveDlg_FilterXlsx" xml:space="preserve">
+    <value>เอกสาร XLSX</value>
+  </data>
+  <data name="SaveDlg_FilterCsv" xml:space="preserve">
+    <value>เอกสาร CSV</value>
+  </data>
+  <data name="SaveDlg_FilterTxt" xml:space="preserve">
+    <value>เอกสารข้อความ</value>
+  </data>
+  <data name="SaveDlg_FilterNativeFormat" xml:space="preserve">
+    <value>รูปแบบดั้งเดิม</value>
+  </data>
+  <data name="SaveDlg_FilterXps" xml:space="preserve">
+    <value>เอกสาร XPS</value>
+  </data>
+  <data name="MenuItem_File" xml:space="preserve">
+    <value>&amp;ไฟล์</value>
+  </data>
+  <data name="MenuItem_View" xml:space="preserve">
+    <value>&amp;ดู</value>
+  </data>
+  <data name="MenuItem_Background" xml:space="preserve">
+    <value>&amp;พื้นหลัง</value>
+  </data>
+  <data name="MenuItem_Export" xml:space="preserve">
+    <value>&amp;ส่งออกไปยัง</value>
+  </data>
+  <data name="MenuItem_Send" xml:space="preserve">
+    <value>&amp;ส่งเป็น</value>
+  </data>
+  <data name="MenuItem_ViewToolbar" xml:space="preserve">
+    <value>&amp;แถบเครื่องมือ</value>
+  </data>
+  <data name="MenuItem_ViewStatusbar" xml:space="preserve">
+    <value>&amp;แถบสถานะ</value>
+  </data>
+  <data name="MenuItem_ViewContinuous" xml:space="preserve">
+    <value>&amp;ต่อเนื่อง</value>
+  </data>
+  <data name="MenuItem_ViewFacing" xml:space="preserve">
+    <value>&amp;เผชิญ</value>
+  </data>
+  <data name="MenuItem_Copy" xml:space="preserve">
+    <value>สำเนา</value>
+  </data>
+  <data name="MenuItem_PrintSelection" xml:space="preserve">
+    <value>พิมพ์...</value>
+  </data>
+  <data name="PageInfo_PageNumber" xml:space="preserve">
+    <value>[หน้า #]</value>
+  </data>
+  <data name="PageInfo_PageNumberOfTotal" xml:space="preserve">
+    <value>[หน้า # ของหน้า #]</value>
+  </data>
+  <data name="PageInfo_PageTotal" xml:space="preserve">
+    <value>[หน้า #]</value>
+  </data>
+  <data name="PageInfo_PageDate" xml:space="preserve">
+    <value>[วันที่พิมพ์]</value>
+  </data>
+  <data name="PageInfo_PageTime" xml:space="preserve">
+    <value>[เวลาที่พิมพ์]</value>
+  </data>
+  <data name="PageInfo_PageUserName" xml:space="preserve">
+    <value>[ชื่อผู้ใช้]</value>
+  </data>
+  <data name="EMail_From" xml:space="preserve">
+    <value>จาก</value>
+  </data>
+  <data name="ExportOption_PdfPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_PdfConvertImagesToJpeg" xml:space="preserve">
+    <value>แปลงรูปภาพเป็น Jpeg</value>
+  </data>
+  <data name="ExportOption_PdfCompressed" xml:space="preserve">
+    <value>บีบอัด</value>
+  </data>
+  <data name="ExportOption_PdfACompatibility" xml:space="preserve">
+    <value>PDF/A-2b</value>
+  </data>
+  <data name="ExportOption_PdfShowPrintDialogOnOpen" xml:space="preserve">
+    <value>แสดงกล่องโต้ตอบการพิมพ์เมื่อเปิด</value>
+  </data>
+  <data name="ExportOption_PdfNeverEmbeddedFonts" xml:space="preserve">
+    <value>อย่าฝังแบบอักษรเหล่านี้:</value>
+  </data>
+  <data name="ExportOption_PdfPasswordSecurityOptions" xml:space="preserve">
+    <value>ความปลอดภัยของรหัสผ่าน:</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions" xml:space="preserve">
+    <value>ลายเซ็นดิจิทัล:</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality" xml:space="preserve">
+    <value>คุณภาพของภาพ:</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality_Lowest" xml:space="preserve">
+    <value>ต่ำสุด</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality_Low" xml:space="preserve">
+    <value>ต่ำ</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality_Medium" xml:space="preserve">
+    <value>ปานกลาง</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality_High" xml:space="preserve">
+    <value>สูง</value>
+  </data>
+  <data name="ExportOption_PdfImageQuality_Highest" xml:space="preserve">
+    <value>สูงสุด</value>
+  </data>
+  <data name="ExportOption_PdfDocumentAuthor" xml:space="preserve">
+    <value>ผู้เขียน:</value>
+  </data>
+  <data name="ExportOption_PdfDocumentApplication" xml:space="preserve">
+    <value>แอปพลิเคชัน:</value>
+  </data>
+  <data name="ExportOption_PdfDocumentTitle" xml:space="preserve">
+    <value>หัวข้อ:</value>
+  </data>
+  <data name="ExportOption_PdfDocumentSubject" xml:space="preserve">
+    <value>เรื่อง:</value>
+  </data>
+  <data name="ExportOption_PdfDocumentKeywords" xml:space="preserve">
+    <value>คำหลัก:</value>
+  </data>
+  <data name="ExportOption_PdfPrintingPermissions_None" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="ExportOption_PdfPrintingPermissions_LowResolution" xml:space="preserve">
+    <value>ความละเอียดต่ำ (150 dpi)</value>
+  </data>
+  <data name="ExportOption_PdfPrintingPermissions_HighResolution" xml:space="preserve">
+    <value>ความละเอียดสูง</value>
+  </data>
+  <data name="ExportOption_PdfChangingPermissions_None" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="ExportOption_PdfChangingPermissions_InsertingDeletingRotating" xml:space="preserve">
+    <value>การแทรกการลบและการหมุนหน้า</value>
+  </data>
+  <data name="ExportOption_PdfChangingPermissions_FillingSigning" xml:space="preserve">
+    <value>กรอกข้อมูลในฟิลด์แบบฟอร์มและลงนามในฟิลด์ลายเซ็นที่มีอยู่</value>
+  </data>
+  <data name="ExportOption_PdfChangingPermissions_CommentingFillingSigning" xml:space="preserve">
+    <value>การแสดงความคิดเห็นการกรอกข้อมูลในช่องแบบฟอร์มและการลงนามในช่องลายเซ็นที่มีอยู่</value>
+  </data>
+  <data name="ExportOption_PdfChangingPermissions_AnyExceptExtractingPages" xml:space="preserve">
+    <value>ใด ๆ ยกเว้นการแยกหน้า</value>
+  </data>
+  <data name="ExportOption_ConfirmOpenPasswordForm_Caption" xml:space="preserve">
+    <value>ยืนยันรหัสเปิดเอกสาร</value>
+  </data>
+  <data name="ExportOption_ConfirmOpenPasswordForm_Note" xml:space="preserve">
+    <value>โปรดยืนยันรหัสเปิดเอกสาร อย่าลืมจดรหัสผ่าน จะต้องเปิดเอกสาร</value>
+  </data>
+  <data name="ExportOption_ConfirmOpenPasswordForm_Name" xml:space="preserve">
+    <value>&amp;รหัสเปิดเอกสาร:</value>
+  </data>
+  <data name="ExportOption_ConfirmPermissionsPasswordForm_Caption" xml:space="preserve">
+    <value>ยืนยันรหัสผ่านสิทธิ์</value>
+  </data>
+  <data name="ExportOption_ConfirmPermissionsPasswordForm_Note" xml:space="preserve">
+    <value>โปรดยืนยันรหัสผ่านการอนุญาต อย่าลืมจดรหัสผ่าน คุณจะต้องใช้เพื่อเปลี่ยนการตั้งค่าเหล่านี้ในอนาคต</value>
+  </data>
+  <data name="ExportOption_ConfirmPermissionsPasswordForm_Name" xml:space="preserve">
+    <value>&amp;รหัสผ่านสิทธิ์:</value>
+  </data>
+  <data name="ExportOption_ConfirmationDoesNotMatchForm_Msg" xml:space="preserve">
+    <value>รหัสผ่านยืนยันไม่ตรงกัน โปรดเริ่มต้นใหม่และป้อนรหัสผ่านอีกครั้ง</value>
+  </data>
+  <data name="ExportOption_HtmlExportMode" xml:space="preserve">
+    <value>โหมดการส่งออก:</value>
+  </data>
+  <data name="ExportOption_HtmlExportMode_SingleFile" xml:space="preserve">
+    <value>ไฟล์เดียว</value>
+  </data>
+  <data name="ExportOption_HtmlExportMode_SingleFilePageByPage" xml:space="preserve">
+    <value>ไฟล์เดียวทีละหน้า</value>
+  </data>
+  <data name="ExportOption_HtmlExportMode_DifferentFiles" xml:space="preserve">
+    <value>ไฟล์ที่แตกต่างกัน</value>
+  </data>
+  <data name="ExportOption_HtmlCharacterSet" xml:space="preserve">
+    <value>Cชุดตัวอักษร:</value>
+  </data>
+  <data name="ExportOption_HtmlTitle" xml:space="preserve">
+    <value>หัวข้อ:</value>
+  </data>
+  <data name="ExportOption_HtmlRemoveSecondarySymbols" xml:space="preserve">
+    <value>ลบการส่งคืนแคร่</value>
+  </data>
+  <data name="ExportOption_HtmlEmbedImagesInHTML" xml:space="preserve">
+    <value>ฝังรูปภาพใน HTML</value>
+  </data>
+  <data name="ExportOption_HtmlPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_HtmlPageBorderWidth" xml:space="preserve">
+    <value>ความกว้างของเส้นขอบของหน้า:</value>
+  </data>
+  <data name="ExportOption_HtmlPageBorderColor" xml:space="preserve">
+    <value>สีเส้นขอบของหน้า:</value>
+  </data>
+  <data name="ExportOption_HtmlTableLayout" xml:space="preserve">
+    <value>เค้าโครงตาราง</value>
+  </data>
+  <data name="ExportOption_RtfExportMode" xml:space="preserve">
+    <value>โหมดการส่งออก:</value>
+  </data>
+  <data name="ExportOption_RtfExportMode_SingleFile" xml:space="preserve">
+    <value>ไฟล์เดียว</value>
+  </data>
+  <data name="ExportOption_RtfExportMode_SingleFilePageByPage" xml:space="preserve">
+    <value>ไฟล์เดียวทีละหน้า</value>
+  </data>
+  <data name="ExportOption_RtfPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_RtfExportWatermarks" xml:space="preserve">
+    <value>ส่งออกลายน้ำ</value>
+  </data>
+  <data name="ExportOption_TextSeparator" xml:space="preserve">
+    <value>ตัวคั่นข้อความ:</value>
+  </data>
+  <data name="ExportOption_TextSeparator_TabAlias" xml:space="preserve">
+    <value>TAB</value>
+  </data>
+  <data name="ExportOption_TextEncoding" xml:space="preserve">
+    <value>การเข้ารหัส:</value>
+  </data>
+  <data name="ExportOption_TextQuoteStringsWithSeparators" xml:space="preserve">
+    <value>อ้างสตริงที่มีตัวคั่น</value>
+  </data>
+  <data name="ExportOption_TextExportMode" xml:space="preserve">
+    <value>โหมดการส่งออกข้อความ:</value>
+  </data>
+  <data name="ExportOption_TextExportMode_Value" xml:space="preserve">
+    <value>ค่า</value>
+  </data>
+  <data name="ExportOption_TextExportMode_Text" xml:space="preserve">
+    <value>ข้อความ</value>
+  </data>
+  <data name="ExportOption_XlsRawDataMode" xml:space="preserve">
+    <value>โหมดข้อมูลดิบ</value>
+  </data>
+  <data name="ExportOption_XlsShowGridLines" xml:space="preserve">
+    <value>แสดงเส้นตาราง</value>
+  </data>
+  <data name="ExportOption_XlsUseNativeFormat" xml:space="preserve">
+    <value>ส่งออกค่าโดยใช้รูปแบบ</value>
+  </data>
+  <data name="ExportOption_XlsExportHyperlinks" xml:space="preserve">
+    <value>ส่งออกไฮเปอร์ลิงก์</value>
+  </data>
+  <data name="ExportOption_XlsSheetName" xml:space="preserve">
+    <value>ชื่อแผ่นงาน:</value>
+  </data>
+  <data name="ExportOption_XlsExportMode" xml:space="preserve">
+    <value>โหมดการส่งออก:</value>
+  </data>
+  <data name="ExportOption_XlsExportMode_SingleFile" xml:space="preserve">
+    <value>ไฟล์เดียว</value>
+  </data>
+  <data name="ExportOption_XlsExportMode_DifferentFiles" xml:space="preserve">
+    <value>ไฟล์ที่แตกต่างกัน</value>
+  </data>
+  <data name="ExportOption_XlsPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_XlsxExportMode" xml:space="preserve">
+    <value>โหมดการส่งออก:</value>
+  </data>
+  <data name="ExportOption_XlsxExportMode_SingleFile" xml:space="preserve">
+    <value>ไฟล์เดียว</value>
+  </data>
+  <data name="ExportOption_XlsxExportMode_SingleFilePageByPage" xml:space="preserve">
+    <value>ไฟล์เดียวทีละหน้า</value>
+  </data>
+  <data name="ExportOption_XlsxExportMode_DifferentFiles" xml:space="preserve">
+    <value>ไฟล์ที่แตกต่างกัน</value>
+  </data>
+  <data name="ExportOption_XlsxPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_ImageExportMode" xml:space="preserve">
+    <value>โหมดการส่งออก:</value>
+  </data>
+  <data name="ExportOption_ImageExportMode_SingleFile" xml:space="preserve">
+    <value>ไฟล์เดียว</value>
+  </data>
+  <data name="ExportOption_ImageExportMode_SingleFilePageByPage" xml:space="preserve">
+    <value>ไฟล์เดียวทีละหน้า</value>
+  </data>
+  <data name="ExportOption_ImageExportMode_DifferentFiles" xml:space="preserve">
+    <value>ไฟล์ที่แตกต่างกัน</value>
+  </data>
+  <data name="ExportOption_ImagePageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_ImagePageBorderWidth" xml:space="preserve">
+    <value>ความกว้างของเส้นขอบของหน้า:</value>
+  </data>
+  <data name="ExportOption_ImagePageBorderColor" xml:space="preserve">
+    <value>สีเส้นขอบของหน้า:</value>
+  </data>
+  <data name="ExportOption_ImageFormat" xml:space="preserve">
+    <value>รูปแบบภาพ:</value>
+  </data>
+  <data name="ExportOption_ImageResolution" xml:space="preserve">
+    <value>ความละเอียด (dpi):</value>
+  </data>
+  <data name="ExportOption_NativeFormatCompressed" xml:space="preserve">
+    <value>บีบอัด</value>
+  </data>
+  <data name="ExportOption_XpsPageRange" xml:space="preserve">
+    <value>ช่วงหน้า:</value>
+  </data>
+  <data name="ExportOption_XpsCompression" xml:space="preserve">
+    <value>การบีบอัด:</value>
+  </data>
+  <data name="ExportOption_XpsCompression_NotCompressed" xml:space="preserve">
+    <value>ไม่บีบอัด</value>
+  </data>
+  <data name="ExportOption_XpsCompression_Normal" xml:space="preserve">
+    <value>ปกติ</value>
+  </data>
+  <data name="ExportOption_XpsCompression_Maximum" xml:space="preserve">
+    <value>ขีดสุด</value>
+  </data>
+  <data name="ExportOption_XpsCompression_Fast" xml:space="preserve">
+    <value>เร็ว</value>
+  </data>
+  <data name="ExportOption_XpsCompression_SuperFast" xml:space="preserve">
+    <value>เร็วมาก</value>
+  </data>
+  <data name="ExportOption_XpsDocumentCreator" xml:space="preserve">
+    <value>ผู้สร้าง:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentCategory" xml:space="preserve">
+    <value>ประเภท:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentTitle" xml:space="preserve">
+    <value>หัวข้อ:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentSubject" xml:space="preserve">
+    <value>เรื่อง:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentKeywords" xml:space="preserve">
+    <value>คำหลัก:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentVersion" xml:space="preserve">
+    <value>เวอร์ชัน:</value>
+  </data>
+  <data name="ExportOption_XpsDocumentDescription" xml:space="preserve">
+    <value>คำอธิบาย:</value>
+  </data>
+  <data name="FolderBrowseDlg_ExportDirectory" xml:space="preserve">
+    <value>เลือกโฟลเดอร์เพื่อบันทึกเอกสารที่ส่งออกไป:</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionPdf" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก PDF</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionXls" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก XLS</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionXlsx" xml:space="preserve">
+    <value>XLSX ตัวเลือกการส่งออก</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionTxt" xml:space="preserve">
+    <value>ตัวเลือกการส่งออกข้อความ</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionCsv" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก CSV</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionImage" xml:space="preserve">
+    <value>ตัวเลือกการส่งออกรูปภาพ</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionHtml" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก HTML</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionMht" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก MHT</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionRtf" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก RTF</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionNativeOptions" xml:space="preserve">
+    <value>ตัวเลือกรูปแบบดั้งเดิม</value>
+  </data>
+  <data name="ExportOptionsForm_CaptionXps" xml:space="preserve">
+    <value>ตัวเลือกการส่งออก XPS</value>
+  </data>
+  <data name="RibbonPreview_PageText" xml:space="preserve">
+    <value>ตัวอย่างก่อนพิมพ์</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Print" xml:space="preserve">
+    <value>พิมพ์</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_PageSetup" xml:space="preserve">
+    <value>การตั้งค่าหน้า</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Navigation" xml:space="preserve">
+    <value>การนำทาง</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Zoom" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Background" xml:space="preserve">
+    <value>พื้นหลังของหน้า</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Export" xml:space="preserve">
+    <value>ส่งออก</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Document" xml:space="preserve">
+    <value>เอกสาร</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="RibbonPreview_DocumentMap_Caption" xml:space="preserve">
+    <value>บุ๊กมาร์ก</value>
+  </data>
+  <data name="RibbonPreview_Parameters_Caption" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="RibbonPreview_Find_Caption" xml:space="preserve">
+    <value>หา</value>
+  </data>
+  <data name="RibbonPreview_Pointer_Caption" xml:space="preserve">
+    <value>ตัวชี้</value>
+  </data>
+  <data name="RibbonPreview_HandTool_Caption" xml:space="preserve">
+    <value>เครื่องมือช่าง</value>
+  </data>
+  <data name="RibbonPreview_Customize_Caption" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="RibbonPreview_Print_Caption" xml:space="preserve">
+    <value>พิมพ์</value>
+  </data>
+  <data name="RibbonPreview_PrintDirect_Caption" xml:space="preserve">
+    <value>พิมพ์ด่วน</value>
+  </data>
+  <data name="RibbonPreview_PageSetup_Caption" xml:space="preserve">
+    <value>ระยะขอบที่กำหนดเอง...</value>
+  </data>
+  <data name="RibbonPreview_EditPageHF_Caption" xml:space="preserve">
+    <value>ส่วนหัว / ส่วนท้าย</value>
+  </data>
+  <data name="RibbonPreview_Magnifier_Caption" xml:space="preserve">
+    <value>แว่นขยาย</value>
+  </data>
+  <data name="RibbonPreview_ZoomOut_Caption" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="RibbonPreview_ZoomExact_Caption" xml:space="preserve">
+    <value>แน่นอน:</value>
+  </data>
+  <data name="RibbonPreview_ZoomIn_Caption" xml:space="preserve">
+    <value>ขยายเข้า</value>
+  </data>
+  <data name="RibbonPreview_ShowFirstPage_Caption" xml:space="preserve">
+    <value>หน้าแรก</value>
+  </data>
+  <data name="RibbonPreview_ShowPrevPage_Caption" xml:space="preserve">
+    <value>หน้าที่แล้ว</value>
+  </data>
+  <data name="RibbonPreview_ShowNextPage_Caption" xml:space="preserve">
+    <value>หน้าต่อไป</value>
+  </data>
+  <data name="RibbonPreview_ShowLastPage_Caption" xml:space="preserve">
+    <value>หน้าสุดท้าย </value>
+  </data>
+  <data name="RibbonPreview_MultiplePages_Caption" xml:space="preserve">
+    <value>หลายหน้า</value>
+  </data>
+  <data name="RibbonPreview_FillBackground_Caption" xml:space="preserve">
+    <value>สีของหน้า</value>
+  </data>
+  <data name="RibbonPreview_Watermark_Caption" xml:space="preserve">
+    <value>ลายน้ำ</value>
+  </data>
+  <data name="RibbonPreview_ExportFile_Caption" xml:space="preserve">
+    <value>ส่งออกไปยัง</value>
+  </data>
+  <data name="RibbonPreview_SendFile_Caption" xml:space="preserve">
+    <value>อีเมลเป็น</value>
+  </data>
+  <data name="RibbonPreview_ClosePreview_Caption" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="RibbonPreview_Scale_Caption" xml:space="preserve">
+    <value>มาตราส่วน</value>
+  </data>
+  <data name="RibbonPreview_PageOrientation_Caption" xml:space="preserve">
+    <value>ปฐมนิเทศ</value>
+  </data>
+  <data name="RibbonPreview_PaperSize_Caption" xml:space="preserve">
+    <value>ขนาด</value>
+  </data>
+  <data name="RibbonPreview_PageMargins_Caption" xml:space="preserve">
+    <value>ระยะขอบ</value>
+  </data>
+  <data name="RibbonPreview_Zoom_Caption" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonPreview_DocumentMap_STipTitle" xml:space="preserve">
+    <value>แผนผังเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_Parameters_STipTitle" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="RibbonPreview_Find_STipTitle" xml:space="preserve">
+    <value>หา</value>
+  </data>
+  <data name="RibbonPreview_Pointer_STipTitle" xml:space="preserve">
+    <value>ตัวชี้เมาส์</value>
+  </data>
+  <data name="RibbonPreview_HandTool_STipTitle" xml:space="preserve">
+    <value>เครื่องมือ</value>
+  </data>
+  <data name="RibbonPreview_Customize_STipTitle" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="RibbonPreview_Print_STipTitle" xml:space="preserve">
+    <value>พิมพ์(Ctrl+P)</value>
+  </data>
+  <data name="RibbonPreview_PrintDirect_STipTitle" xml:space="preserve">
+    <value>พิมพ์ด่วน</value>
+  </data>
+  <data name="RibbonPreview_PageSetup_STipTitle" xml:space="preserve">
+    <value>การตั้งค่าหน้า</value>
+  </data>
+  <data name="RibbonPreview_EditPageHF_STipTitle" xml:space="preserve">
+    <value>ส่วนหัวและส่วนท้าย</value>
+  </data>
+  <data name="RibbonPreview_Magnifier_STipTitle" xml:space="preserve">
+    <value>แว่นขยาย</value>
+  </data>
+  <data name="RibbonPreview_ZoomOut_STipTitle" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="RibbonPreview_ZoomIn_STipTitle" xml:space="preserve">
+    <value>ขยายเข้า</value>
+  </data>
+  <data name="RibbonPreview_ShowFirstPage_STipTitle" xml:space="preserve">
+    <value>หน้าแรก(Ctrl+Home)</value>
+  </data>
+  <data name="RibbonPreview_ShowPrevPage_STipTitle" xml:space="preserve">
+    <value>หน้าที่แล้ว(PageUp)</value>
+  </data>
+  <data name="RibbonPreview_ShowNextPage_STipTitle" xml:space="preserve">
+    <value>หน้าต่อไป (PageDown)</value>
+  </data>
+  <data name="RibbonPreview_ShowLastPage_STipTitle" xml:space="preserve">
+    <value>หน้าสุดท้าย (Ctrl+End)</value>
+  </data>
+  <data name="RibbonPreview_MultiplePages_STipTitle" xml:space="preserve">
+    <value>ดูหลาย ๆ หน้า</value>
+  </data>
+  <data name="RibbonPreview_FillBackground_STipTitle" xml:space="preserve">
+    <value>สีพื้นหลัง</value>
+  </data>
+  <data name="RibbonPreview_Watermark_STipTitle" xml:space="preserve">
+    <value>ลายน้ำ</value>
+  </data>
+  <data name="RibbonPreview_ExportFile_STipTitle" xml:space="preserve">
+    <value>ส่งออกไปยัง...</value>
+  </data>
+  <data name="RibbonPreview_SendFile_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น...</value>
+  </data>
+  <data name="RibbonPreview_ClosePreview_STipTitle" xml:space="preserve">
+    <value>ปิดตัวอย่างก่อนพิมพ์</value>
+  </data>
+  <data name="RibbonPreview_Scale_STipTitle" xml:space="preserve">
+    <value>มาตราส่วน</value>
+  </data>
+  <data name="RibbonPreview_PageOrientation_STipTitle" xml:space="preserve">
+    <value>การวางแนวหน้า</value>
+  </data>
+  <data name="RibbonPreview_PaperSize_STipTitle" xml:space="preserve">
+    <value>ขนาดหน้า</value>
+  </data>
+  <data name="RibbonPreview_PageMargins_STipTitle" xml:space="preserve">
+    <value>ระยะขอบหน้า</value>
+  </data>
+  <data name="RibbonPreview_Zoom_STipTitle" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_PageSetup_STipTitle" xml:space="preserve">
+    <value>การตั้งค่าหน้า</value>
+  </data>
+  <data name="RibbonPreview_Save_STipTitle" xml:space="preserve">
+    <value>บันทึก (Ctrl + S)</value>
+  </data>
+  <data name="RibbonPreview_Open_STipTitle" xml:space="preserve">
+    <value>เปิด (Ctrl + O)</value>
+  </data>
+  <data name="RibbonPreview_DocumentMap_STipContent" xml:space="preserve">
+    <value>เปิดแผนผังเอกสารซึ่งช่วยให้คุณสามารถเลื่อนดูมุมมองโครงสร้างของเอกสารได้.</value>
+  </data>
+  <data name="RibbonPreview_Parameters_STipContent" xml:space="preserve">
+    <value>เปิดบานหน้าต่างพารามิเตอร์ซึ่งอนุญาตให้คุณป้อนค่าสำหรับพารามิเตอร์รายงาน</value>
+  </data>
+  <data name="RibbonPreview_Find_STipContent" xml:space="preserve">
+    <value>แสดงกล่องโต้ตอบค้นหาเพื่อค้นหาข้อความในเอกสาร.</value>
+  </data>
+  <data name="RibbonPreview_Pointer_STipContent" xml:space="preserve">
+    <value>แสดงตัวชี้เมาส์.</value>
+  </data>
+  <data name="RibbonPreview_HandTool_STipContent" xml:space="preserve">
+    <value>เรียกใช้ Hand tool เพื่อเลื่อนดูหน้าต่างๆด้วยตนเอง</value>
+  </data>
+  <data name="RibbonPreview_Customize_STipContent" xml:space="preserve">
+    <value>เปิดกล่องโต้ตอบตัวเลือกการพิมพ์ซึ่งคุณสามารถเปลี่ยนตัวเลือกการพิมพ์ได้</value>
+  </data>
+  <data name="RibbonPreview_Print_STipContent" xml:space="preserve">
+    <value>เลือกเครื่องพิมพ์จำนวนสำเนาและตัวเลือกการพิมพ์อื่น ๆ ก่อนพิมพ์</value>
+  </data>
+  <data name="RibbonPreview_PrintDirect_STipContent" xml:space="preserve">
+    <value>ส่งเอกสารไปยังเครื่องพิมพ์เริ่มต้นโดยตรงโดยไม่ต้องทำการเปลี่ยนแปลง</value>
+  </data>
+  <data name="RibbonPreview_PageSetup_STipContent" xml:space="preserve">
+    <value>แสดงกล่องโต้ตอบการตั้งค่าหน้ากระดาษ</value>
+  </data>
+  <data name="RibbonPreview_EditPageHF_STipContent" xml:space="preserve">
+    <value>แก้ไขส่วนหัวและส่วนท้ายของเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_Magnifier_STipContent" xml:space="preserve">
+    <value>เรียกใช้เครื่องมือแว่นขยาย
+
+การคลิกหนึ่งครั้งบนเอกสารจะเป็นการซูมเพื่อให้หน้าเดียวสามารถมองเห็นได้ทั้งหมดในขณะที่การคลิกครั้งอื่นจะซูมไปที่ 100% ของขนาดปกติ</value>
+  </data>
+  <data name="RibbonPreview_ZoomOut_STipContent" xml:space="preserve">
+    <value>ซูมออกเพื่อดูหน้าอื่น ๆ ในขนาดที่ลดลง</value>
+  </data>
+  <data name="RibbonPreview_ZoomIn_STipContent" xml:space="preserve">
+    <value>ซูมเข้าเพื่อดูเอกสารในระยะใกล้</value>
+  </data>
+  <data name="RibbonPreview_ShowFirstPage_STipContent" xml:space="preserve">
+    <value>ไปที่หน้าแรกของเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_ShowPrevPage_STipContent" xml:space="preserve">
+    <value>ไปที่หน้าก่อนหน้าของเอกสาร.</value>
+  </data>
+  <data name="RibbonPreview_ShowNextPage_STipContent" xml:space="preserve">
+    <value>ไปที่หน้าถัดไปของเอกสาร.</value>
+  </data>
+  <data name="RibbonPreview_ShowLastPage_STipContent" xml:space="preserve">
+    <value>ไปที่หน้าสุดท้ายของเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_MultiplePages_STipContent" xml:space="preserve">
+    <value>เลือกเค้าโครงหน้าเพื่อจัดเรียงหน้าเอกสารในการแสดงตัวอย่าง</value>
+  </data>
+  <data name="RibbonPreview_FillBackground_STipContent" xml:space="preserve">
+    <value> เลือกสีสำหรับพื้นหลังของหน้าเอกสาร.</value>
+  </data>
+  <data name="RibbonPreview_Watermark_STipContent" xml:space="preserve">
+    <value>แทรกข้อความหรือรูปภาพที่โกสต์ไว้ด้านหลังเนื้อหาของเพจ
+
+ซึ่งมักใช้เพื่อระบุว่าเอกสารจะต้องได้รับการปฏิบัติเป็นพิเศษ</value>
+  </data>
+  <data name="RibbonPreview_ExportFile_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารปัจจุบันในรูปแบบที่พร้อมใช้งานและบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_SendFile_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารปัจจุบันในรูปแบบใดรูปแบบหนึ่งที่มีให้และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_ClosePreview_STipContent" xml:space="preserve">
+    <value>ปิดตัวอย่างก่อนพิมพ์ของเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_Scale_STipContent" xml:space="preserve">
+    <value>ยืดหรือหดผลงานที่พิมพ์เป็นเปอร์เซ็นต์ของขนาดจริง</value>
+  </data>
+  <data name="RibbonPreview_PageOrientation_STipContent" xml:space="preserve">
+    <value>สลับหน้าระหว่างเค้าโครงแนวตั้งและแนวนอน</value>
+  </data>
+  <data name="RibbonPreview_PaperSize_STipContent" xml:space="preserve">
+    <value>เลือกขนาดกระดาษของเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_PageMargins_STipContent" xml:space="preserve">
+    <value>เลือกขนาดระยะขอบสำหรับทั้งเอกสาร
+
+เมื่อต้องการใช้ขนาดระยะขอบเฉพาะกับเอกสารให้คลิกระยะขอบแบบกำหนดเอง</value>
+  </data>
+  <data name="RibbonPreview_Zoom_STipContent" xml:space="preserve">
+    <value>เปลี่ยนระดับการซูมของการแสดงตัวอย่างเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_PageGroup_PageSetup_STipContent" xml:space="preserve">
+    <value>แสดงกล่องโต้ตอบการตั้งค่าหน้ากระดาษ</value>
+  </data>
+  <data name="RibbonPreview_Save_STipContent" xml:space="preserve">
+    <value>บันทึกเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_Open_STipContent" xml:space="preserve">
+    <value>เปิดเอกสาร</value>
+  </data>
+  <data name="RibbonPreview_ExportPdf_Caption" xml:space="preserve">
+    <value>ไฟล์ PDF</value>
+  </data>
+  <data name="RibbonPreview_ExportHtm_Caption" xml:space="preserve">
+    <value>ไฟล์ HTML</value>
+  </data>
+  <data name="RibbonPreview_ExportMht_Caption" xml:space="preserve">
+    <value>ไฟล์ MHT</value>
+  </data>
+  <data name="RibbonPreview_ExportRtf_Caption" xml:space="preserve">
+    <value>ไฟล์ RTF</value>
+  </data>
+  <data name="RibbonPreview_ExportXls_Caption" xml:space="preserve">
+    <value>ไฟล์ XLS</value>
+  </data>
+  <data name="RibbonPreview_ExportXlsx_Caption" xml:space="preserve">
+    <value>ไฟล์ XLSX</value>
+  </data>
+  <data name="RibbonPreview_ExportCsv_Caption" xml:space="preserve">
+    <value>ไฟล์ CSV</value>
+  </data>
+  <data name="RibbonPreview_ExportTxt_Caption" xml:space="preserve">
+    <value>ไฟล์ข้อความ</value>
+  </data>
+  <data name="RibbonPreview_ExportGraphic_Caption" xml:space="preserve">
+    <value>ไฟล์ภาพ</value>
+  </data>
+  <data name="RibbonPreview_ExportXps_Caption" xml:space="preserve">
+    <value>ไฟล์ XPS</value>
+  </data>
+  <data name="RibbonPreview_SendPdf_Caption" xml:space="preserve">
+    <value>ไฟล์ PDF</value>
+  </data>
+  <data name="RibbonPreview_SendMht_Caption" xml:space="preserve">
+    <value>ไฟล์ MHT</value>
+  </data>
+  <data name="RibbonPreview_SendRtf_Caption" xml:space="preserve">
+    <value>ไฟล์ RTF</value>
+  </data>
+  <data name="RibbonPreview_SendXls_Caption" xml:space="preserve">
+    <value>ไฟล์ XLS</value>
+  </data>
+  <data name="RibbonPreview_SendXlsx_Caption" xml:space="preserve">
+    <value>ไฟล์ XLSX</value>
+  </data>
+  <data name="RibbonPreview_SendCsv_Caption" xml:space="preserve">
+    <value>ไฟล์ CSV</value>
+  </data>
+  <data name="RibbonPreview_SendTxt_Caption" xml:space="preserve">
+    <value>ไฟล์ข้อความ</value>
+  </data>
+  <data name="RibbonPreview_SendGraphic_Caption" xml:space="preserve">
+    <value>ไฟล์ภาพ</value>
+  </data>
+  <data name="RibbonPreview_SendXps_Caption" xml:space="preserve">
+    <value>ไฟล์ XPS</value>
+  </data>
+  <data name="RibbonPreview_ExportPdf_Description" xml:space="preserve">
+    <value>รูปแบบเอกสาร Adobe Portable</value>
+  </data>
+  <data name="RibbonPreview_ExportHtm_Description" xml:space="preserve">
+    <value>หน้าเว็บ</value>
+  </data>
+  <data name="RibbonPreview_ExportTxt_Description" xml:space="preserve">
+    <value>ข้อความธรรมดา</value>
+  </data>
+  <data name="RibbonPreview_ExportCsv_Description" xml:space="preserve">
+    <value>ข้อความค่าที่คั่นด้วยจุลภาค</value>
+  </data>
+  <data name="RibbonPreview_ExportMht_Description" xml:space="preserve">
+    <value>หน้าเว็บไฟล์เดียว</value>
+  </data>
+  <data name="RibbonPreview_ExportXls_Description" xml:space="preserve">
+    <value>สมุดงาน Microsoft Excel 2000-2003</value>
+  </data>
+  <data name="RibbonPreview_ExportXlsx_Description" xml:space="preserve">
+    <value>สมุดงาน Microsoft Excel 2007</value>
+  </data>
+  <data name="RibbonPreview_ExportRtf_Description" xml:space="preserve">
+    <value>รูปแบบ Rich Text</value>
+  </data>
+  <data name="RibbonPreview_ExportGraphic_Description" xml:space="preserve">
+    <value>BMP, GIF, JPEG, PNG, TIFF, EMF, WMF</value>
+  </data>
+  <data name="RibbonPreview_ExportXps_Description" xml:space="preserve">
+    <value>XPS</value>
+  </data>
+  <data name="RibbonPreview_SendPdf_Description" xml:space="preserve">
+    <value>รูปแบบเอกสาร Adobe Portable</value>
+  </data>
+  <data name="RibbonPreview_SendTxt_Description" xml:space="preserve">
+    <value>ข้อความธรรมดา</value>
+  </data>
+  <data name="RibbonPreview_SendCsv_Description" xml:space="preserve">
+    <value>ข้อความค่าที่คั่นด้วยจุลภาค</value>
+  </data>
+  <data name="RibbonPreview_SendMht_Description" xml:space="preserve">
+    <value>หน้าเว็บไฟล์เดียว</value>
+  </data>
+  <data name="RibbonPreview_SendXls_Description" xml:space="preserve">
+    <value>สมุดงาน Microsoft Excel 2000-2003</value>
+  </data>
+  <data name="RibbonPreview_SendXlsx_Description" xml:space="preserve">
+    <value>สมุดงาน Microsoft Excel 2007</value>
+  </data>
+  <data name="RibbonPreview_SendRtf_Description" xml:space="preserve">
+    <value>รูปแบบ Rich Text</value>
+  </data>
+  <data name="RibbonPreview_SendGraphic_Description" xml:space="preserve">
+    <value>BMP, GIF, JPEG, PNG, TIFF, EMF, WMF</value>
+  </data>
+  <data name="RibbonPreview_SendXps_Description" xml:space="preserve">
+    <value>XPS</value>
+  </data>
+  <data name="RibbonPreview_ExportPdf_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น PDF</value>
+  </data>
+  <data name="RibbonPreview_ExportHtm_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น PDF</value>
+  </data>
+  <data name="RibbonPreview_ExportTxt_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น Text</value>
+  </data>
+  <data name="RibbonPreview_ExportCsv_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น CSV</value>
+  </data>
+  <data name="RibbonPreview_ExportMht_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น MHT</value>
+  </data>
+  <data name="RibbonPreview_ExportXls_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น XLS</value>
+  </data>
+  <data name="RibbonPreview_ExportXlsx_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น XLSX</value>
+  </data>
+  <data name="RibbonPreview_ExportRtf_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น RTF</value>
+  </data>
+  <data name="RibbonPreview_ExportGraphic_STipTitle" xml:space="preserve">
+    <value>ส่งออกเป็น Image</value>
+  </data>
+  <data name="RibbonPreview_SendPdf_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น PDF</value>
+  </data>
+  <data name="RibbonPreview_SendTxt_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น Text</value>
+  </data>
+  <data name="RibbonPreview_SendCsv_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น CSV</value>
+  </data>
+  <data name="RibbonPreview_SendMht_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น MHT</value>
+  </data>
+  <data name="RibbonPreview_SendXls_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น XLS</value>
+  </data>
+  <data name="RibbonPreview_SendXlsx_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น XLSX</value>
+  </data>
+  <data name="RibbonPreview_SendRtf_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น RTF</value>
+  </data>
+  <data name="RibbonPreview_SendGraphic_STipTitle" xml:space="preserve">
+    <value>อีเมลเป็น Image</value>
+  </data>
+  <data name="RibbonPreview_ExportPdf_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น PDF และบันทึกลงในไฟล์บนดิสก์.</value>
+  </data>
+  <data name="RibbonPreview_ExportHtm_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น HTML และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportTxt_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นข้อความและบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportCsv_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น CSV และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportMht_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น MHT และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportXls_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น XLS และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportXlsx_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น XLSX และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportRtf_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารไปยัง RTF และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_ExportGraphic_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น Image และบันทึกลงในไฟล์บนดิสก์</value>
+  </data>
+  <data name="RibbonPreview_SendPdf_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น PDF และแนบไปกับอีเมล.</value>
+  </data>
+  <data name="RibbonPreview_SendTxt_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นข้อความและแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendCsv_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น CSV และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendMht_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น MHT และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendXls_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น XLS และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendXlsx_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น XLSX และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendRtf_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารไปยัง RTF และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_SendGraphic_STipContent" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็น Image และแนบไปกับอีเมล</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageOrientationPortrait_Caption" xml:space="preserve">
+    <value>แนวตั้ง</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageOrientationLandscape_Caption" xml:space="preserve">
+    <value>ภูมิทัศน์</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsNormal_Caption" xml:space="preserve">
+    <value>ปกติ</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsNarrow_Caption" xml:space="preserve">
+    <value>แคบ</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsModerate_Caption" xml:space="preserve">
+    <value>ปานกลาง</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsWide_Caption" xml:space="preserve">
+    <value>กว้าง</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsNormal_Description" xml:space="preserve">
+    <value>ปกติ</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsNarrow_Description" xml:space="preserve">
+    <value>แคบ</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsModerate_Description" xml:space="preserve">
+    <value>ปานกลาง</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMarginsWide_Description" xml:space="preserve">
+    <value>กว้าง</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageMargins_Description" xml:space="preserve">
+    <value>ด้านบน: {0} ด้านล่าง: {1}ซ้าย: {2} ขวา: {3}</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PaperSize_Description" xml:space="preserve">
+    <value>{0} x {1}</value>
+  </data>
+  <data name="OpenFileDialog_Filter" xml:space="preserve">
+    <value>ดูตัวอย่างไฟล์เอกสาร (* {0}) | * {0} | ไฟล์ทั้งหมด (*. *) | *. *</value>
+  </data>
+  <data name="OpenFileDialog_Title" xml:space="preserve">
+    <value>เปิด</value>
+  </data>
+  <data name="ExportOption_PdfPasswordSecurityOptions_DocumentOpenPassword" xml:space="preserve">
+    <value>รหัสเปิดเอกสาร</value>
+  </data>
+  <data name="ExportOption_PdfPasswordSecurityOptions_Permissions" xml:space="preserve">
+    <value>สิทธิ์</value>
+  </data>
+  <data name="ExportOption_PdfPasswordSecurityOptions_None" xml:space="preserve">
+    <value>(ไม่มี)</value>
+  </data>
+  <data name="ParametersRequest_Submit" xml:space="preserve">
+    <value>ส่ง</value>
+  </data>
+  <data name="ParametersRequest_Reset" xml:space="preserve">
+    <value>รีเซ็ต</value>
+  </data>
+  <data name="ParametersRequest_Caption" xml:space="preserve">
+    <value>พารามิเตอร์</value>
+  </data>
+  <data name="WatermarkTypePicture" xml:space="preserve">
+    <value>(ภาพ)</value>
+  </data>
+  <data name="WatermarkTypeText" xml:space="preserve">
+    <value>(ข้อความ)</value>
+  </data>
+  <data name="ParameterLookUpSettingsNoLookUp" xml:space="preserve">
+    <value>ไม่มีการค้นหา</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions_Certificate" xml:space="preserve">
+    <value>ใบรับรอง</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions_Reason" xml:space="preserve">
+    <value>เหตุผล</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions_Location" xml:space="preserve">
+    <value>สถานที่</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions_ContactInfo" xml:space="preserve">
+    <value>ข้อมูลติดต่อ</value>
+  </data>
+  <data name="ExportOption_PdfSignatureOptions_None" xml:space="preserve">
+    <value>(ไม่มี)</value>
+  </data>
+  <data name="ExportOption_PdfSignature_EmptyCertificate" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="ExportOption_PdfSignature_Issuer" xml:space="preserve">
+    <value>ผู้ออก: </value>
+  </data>
+  <data name="ExportOption_PdfSignature_ValidRange" xml:space="preserve">
+    <value>ใช้ได้ตั้งแต่: {0: d} ถึง {1: d}</value>
+  </data>
+  <data name="NetworkPrinterFormat" xml:space="preserve">
+    <value>{0} เมื่อ {1}</value>
+  </data>
+  <data name="Dlg_SaveFile_Title" xml:space="preserve">
+    <value>บันทึก "{0}"</value>
+  </data>
+  <data name="Msg_WarningFontNameCantBeEmpty" xml:space="preserve">
+    <value>ชื่อแบบอักษรต้องไม่ว่างเปล่า</value>
+  </data>
+  <data name="Msg_FileNotFound" xml:space="preserve">
+    <value>ไม่พบไฟล์.</value>
+  </data>
+  <data name="Msg_WrongReportClassName" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดระหว่าง deserialization - อาจมีชื่อคลาสรายงานผิด</value>
+  </data>
+  <data name="Msg_CreateReportInstance" xml:space="preserve">
+    <value>รายงานที่กำลังแก้ไขอยู่ในขณะนี้เป็นประเภทที่แตกต่างจากที่คุณพยายามจะเปิดคุณต้องการเปิดรายงานที่เลือกต่อไปหรือไม่</value>
+  </data>
+  <data name="Msg_FileCorrupted" xml:space="preserve">
+    <value>ไม่สามารถโหลดรายงาน ไฟล์อาจเสียหายหรือชุดประกอบของรายงานขาดหายไป</value>
+  </data>
+  <data name="Msg_FileContentCorrupted" xml:space="preserve">
+    <value>ไม่สามารถโหลดเค้าโครงของรายงาน ไฟล์อาจเสียหายหรือมีข้อมูลที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_IncorrectArgument" xml:space="preserve">
+    <value>ค่าของอาร์กิวเมนต์ไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_InvalidMethodCall" xml:space="preserve">
+    <value>การเรียกเมธอดนี้ไม่ถูกต้องสำหรับสถานะปัจจุบันของออบเจ็กต์</value>
+  </data>
+  <data name="Msg_ScriptError" xml:space="preserve">
+    <value>มีข้อผิดพลาดต่อไปนี้ในสคริปต์: {0}</value>
+  </data>
+  <data name="Msg_ScriptExecutionError" xml:space="preserve">
+    <value>Tเขาติดตามข้อผิดพลาดเกิดขึ้นเมื่อสคริปต์ในขั้นตอน {0}:
+ {1}
+ขั้นตอน {0} ถูกดำเนินการแล้วจะไม่ถูกเรียกอีก.</value>
+  </data>
+  <data name="Msg_ScriptCodeIsNotCorrect" xml:space="preserve">
+    <value>ป้อนรหัสไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_InvalidReportSource" xml:space="preserve">
+    <value>ไม่สามารถตั้งค่าคุณสมบัติ 'ReportSource' ของตัวควบคุมรายงานย่อยให้เป็นรายงานที่สืบเนื่องมาจากรายงานปัจจุบัน</value>
+  </data>
+  <data name="Msg_IncorrectBandType" xml:space="preserve">
+    <value>ประเภทวงดนตรีไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_CreateSomeInstance" xml:space="preserve">
+    <value>ไม่สามารถสร้างสองอินสแตนซ์ของคลาสบนฟอร์ม</value>
+  </data>
+  <data name="Msg_DontSupportMulticolumn" xml:space="preserve">
+    <value>รายงานรายละเอียดไม่รองรับคอลัมน์หลายคอลัมน์</value>
+  </data>
+  <data name="Msg_FillDataError" xml:space="preserve">
+    <value>เกิดข้อผิดพลาดขณะพยายามเติมข้อมูลแหล่งข้อมูล ข้อยกเว้นต่อไปนี้ถูกโยนทิ้ง:</value>
+  </data>
+  <data name="Msg_PlacingXrTocIntoIncorrectContainer" xml:space="preserve">
+    <value>ตัวควบคุม XRTableOfContents สามารถวางไว้ในแถบส่วนหัวของรายงานและแถบส่วนท้ายของรายงานเท่านั้น.</value>
+  </data>
+  <data name="Msg_NoBookmarksWereFoundInReportForXrToc" xml:space="preserve">
+    <value>ไม่พบบุ๊กมาร์กในรายงาน ในการสร้างสารบัญให้ระบุบุ๊กมาร์กสำหรับองค์ประกอบรายงานอย่างน้อยหนึ่งรายการ</value>
+  </data>
+  <data name="Msg_InvalidLeaderSymbolForXrTocLevel" xml:space="preserve">
+    <value>สัญลักษณ์ผู้นำไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_InvalidXrTocInstance" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มอินสแตนซ์ของสารบัญ XR ในรายงานได้อีกต่อไป</value>
+  </data>
+  <data name="Msg_InvalidXrTocInstanceInBand" xml:space="preserve">
+    <value>ไม่สามารถเพิ่มอินสแตนซ์ของสารบัญ XR สามารถเพิ่มลงในวงดนตรีได้.</value>
+  </data>
+  <data name="Msg_CyclicBookmarks" xml:space="preserve">
+    <value>นี่คือบุ๊กมาร์กแบบวนในรายงาน.</value>
+  </data>
+  <data name="Msg_LargeText" xml:space="preserve">
+    <value>ข้อความใหญ่เกินไป.</value>
+  </data>
+  <data name="Msg_ScriptingPermissionErrorMessage" xml:space="preserve">
+    <value>คุณไม่มีสิทธิ์เพียงพอที่จะเรียกใช้สคริปต์ในรายงานนี้
+
+รายละเอียด:
+
+{0}</value>
+  </data>
+  <data name="Msg_ReportImporting" xml:space="preserve">
+    <value>การนำเข้าเค้าโครงรายงาน โปรดรอ...</value>
+  </data>
+  <data name="Msg_IncorrectPadding" xml:space="preserve">
+    <value>ช่องว่างภายในควรมากกว่าหรือเท่ากับ 0.</value>
+  </data>
+  <data name="Msg_ShapeRotationToolTip" xml:space="preserve">
+    <value>ใช้ Ctrl ด้วยปุ่มซ้ายของเมาส์เพื่อหมุนรูปร่าง</value>
+  </data>
+  <data name="Msg_WarningRemoveCalculatedFields" xml:space="preserve">
+    <value>การดำเนินการนี้จะลบเขตข้อมูลจากการคำนวณทั้งหมดออกจากตารางข้อมูลทั้งหมด คุณต้องการดำเนินการต่อหรือไม่?</value>
+  </data>
+  <data name="Msg_WarningRemoveParameters" xml:space="preserve">
+    <value>การดำเนินการนี้จะลบพารามิเตอร์ทั้งหมด คุณต้องการดำเนินการต่อหรือไม่?</value>
+  </data>
+  <data name="Msg_SerializationErrorTitle" xml:space="preserve">
+    <value>ข้อผิดพลาดในการทำให้เป็นอนุกรม</value>
+  </data>
+  <data name="Msg_InvalidExpression" xml:space="preserve">
+    <value>นิพจน์ที่ระบุมีสัญลักษณ์ที่ไม่ถูกต้อง (บรรทัด {0} อักขระ {1}).</value>
+  </data>
+  <data name="Msg_InvalidExpressionEx" xml:space="preserve">
+    <value>นิพจน์ที่ระบุไม่ถูกต้อง</value>
+  </data>
+  <data name="Msg_NoCustomFunction" xml:space="preserve">
+    <value>ไม่พบฟังก์ชันที่กำหนดเอง "{0}"</value>
+  </data>
+  <data name="Msg_InvalidCondition" xml:space="preserve">
+    <value>เงื่อนไขต้องเป็น Boolean!</value>
+  </data>
+  <data name="Msg_GroupSortWarning" xml:space="preserve">
+    <value>ส่วนหัวหรือส่วนท้ายของกลุ่มที่คุณต้องการลบไม่ว่างเปล่า คุณต้องการลบแถบนี้พร้อมกับการควบคุมหรือไม่</value>
+  </data>
+  <data name="Msg_GroupSortNoDataSource" xml:space="preserve">
+    <value>หากต้องการเพิ่มระดับการจัดกลุ่มหรือการจัดเรียงใหม่ขั้นแรกให้ระบุแหล่งข้อมูลสำหรับรายงาน</value>
+  </data>
+  <data name="Msg_NotEnoughMemoryToPaint" xml:space="preserve">
+    <value>หน่วยความจำไม่เพียงพอที่จะระบายสี ระดับการซูมจะถูกรีเซ็ต</value>
+  </data>
+  <data name="Cmd_DetailReport" xml:space="preserve">
+    <value>รายละเอียดรายงาน</value>
+  </data>
+  <data name="Cmd_RtfClear" xml:space="preserve">
+    <value>ชัดเจน</value>
+  </data>
+  <data name="Cmd_RtfLoad" xml:space="preserve">
+    <value>โหลดไฟล์...</value>
+  </data>
+  <data name="CatUserDesigner" xml:space="preserve">
+    <value>ผู้ออกแบบผู้ใช้</value>
+  </data>
+  <data name="CatElements" xml:space="preserve">
+    <value>องค์ประกอบ</value>
+  </data>
+  <data name="CatOptions" xml:space="preserve">
+    <value>ตัวเลือก</value>
+  </data>
+  <data name="BandDsg_QuantityPerReport" xml:space="preserve">
+    <value>หนึ่งวงต่อรายงาน</value>
+  </data>
+  <data name="UD_ReportDesigner" xml:space="preserve">
+    <value>ผู้ออกแบบรายงาน</value>
+  </data>
+  <data name="UD_Msg_ReportChanged" xml:space="preserve">
+    <value>มีการเปลี่ยนแปลงรายงาน คุณต้องการบันทึกการเปลี่ยนแปลงหรือไม่</value>
+  </data>
+  <data name="UD_Msg_MdiReportChanged" xml:space="preserve">
+    <value>"{0}" มีการเปลี่ยนแปลง คุณต้องการบันทึกการเปลี่ยนแปลงหรือไม่</value>
+  </data>
+  <data name="UD_TTip_FileOpen" xml:space="preserve">
+    <value>เปิดไฟล์</value>
+  </data>
+  <data name="UD_TTip_FileSave" xml:space="preserve">
+    <value>บันทึกไฟล์</value>
+  </data>
+  <data name="UD_TTip_EditCut" xml:space="preserve">
+    <value>ตัด</value>
+  </data>
+  <data name="UD_TTip_EditCopy" xml:space="preserve">
+    <value>สำเนา</value>
+  </data>
+  <data name="UD_TTip_EditPaste" xml:space="preserve">
+    <value>วาง</value>
+  </data>
+  <data name="UD_TTip_Undo" xml:space="preserve">
+    <value>เลิกทำ</value>
+  </data>
+  <data name="UD_TTip_Redo" xml:space="preserve">
+    <value>ทำซ้ำ</value>
+  </data>
+  <data name="UD_TTip_AlignToGrid" xml:space="preserve">
+    <value>จัดแนวกับกริด</value>
+  </data>
+  <data name="UD_TTip_AlignLeft" xml:space="preserve">
+    <value>จัดชิดซ้าย</value>
+  </data>
+  <data name="UD_TTip_AlignVerticalCenters" xml:space="preserve">
+    <value>จัดแนวศูนย์</value>
+  </data>
+  <data name="UD_TTip_AlignRight" xml:space="preserve">
+    <value>จัดแนวสิทธิ์</value>
+  </data>
+  <data name="UD_TTip_AlignTop" xml:space="preserve">
+    <value>จัดแนวท็อปส์</value>
+  </data>
+  <data name="UD_TTip_AlignHorizontalCenters" xml:space="preserve">
+    <value>จัดแนวมิดเดิลส์</value>
+  </data>
+  <data name="UD_TTip_AlignBottom" xml:space="preserve">
+    <value>จัดแนวกางเกง</value>
+  </data>
+  <data name="UD_TTip_SizeToControlWidth" xml:space="preserve">
+    <value>ความกว้างเดียวกัน</value>
+  </data>
+  <data name="UD_TTip_SizeToGrid" xml:space="preserve">
+    <value>ขนาดเป็นตาราง</value>
+  </data>
+  <data name="UD_TTip_SizeToControlHeight" xml:space="preserve">
+    <value>ทำให้สูงเท่ากัน</value>
+  </data>
+  <data name="UD_TTip_SizeToControl" xml:space="preserve">
+    <value>ทำให้มีขนาดเท่ากัน</value>
+  </data>
+  <data name="UD_TTip_HorizSpaceMakeEqual" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวนอนเท่ากัน</value>
+  </data>
+  <data name="UD_TTip_HorizSpaceIncrease" xml:space="preserve">
+    <value>เพิ่มระยะห่างในแนวนอน</value>
+  </data>
+  <data name="UD_TTip_HorizSpaceDecrease" xml:space="preserve">
+    <value>ลดระยะห่างในแนวนอน</value>
+  </data>
+  <data name="UD_TTip_HorizSpaceConcatenate" xml:space="preserve">
+    <value>ลบระยะห่างในแนวนอน</value>
+  </data>
+  <data name="UD_TTip_VertSpaceMakeEqual" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวตั้งเท่ากัน</value>
+  </data>
+  <data name="UD_TTip_VertSpaceIncrease" xml:space="preserve">
+    <value>เพิ่มระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="UD_TTip_VertSpaceDecrease" xml:space="preserve">
+    <value>ลดระยะห่างในแนวตั้ง</value>
+  </data>
+  <data name="UD_TTip_VertSpaceConcatenate" xml:space="preserve">
+    <value>ลบระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="UD_TTip_CenterHorizontally" xml:space="preserve">
+    <value>กึ่งกลางแนวนอน</value>
+  </data>
+  <data name="UD_TTip_CenterVertically" xml:space="preserve">
+    <value>ศูนย์ในแนวตั้ง</value>
+  </data>
+  <data name="UD_TTip_BringToFront" xml:space="preserve">
+    <value>นำไปที่ด้านหน้า</value>
+  </data>
+  <data name="UD_TTip_SendToBack" xml:space="preserve">
+    <value>ส่งกลับ</value>
+  </data>
+  <data name="UD_TTip_FormatBold" xml:space="preserve">
+    <value>ตัวหนา</value>
+  </data>
+  <data name="UD_TTip_FormatItalic" xml:space="preserve">
+    <value>ตัวเอียง</value>
+  </data>
+  <data name="UD_TTip_FormatUnderline" xml:space="preserve">
+    <value>ขีดเส้นใต้</value>
+  </data>
+  <data name="UD_TTip_FormatAlignLeft" xml:space="preserve">
+    <value>จัดชิดซ้าย</value>
+  </data>
+  <data name="UD_TTip_FormatCenter" xml:space="preserve">
+    <value>ศูนย์</value>
+  </data>
+  <data name="UD_TTip_FormatAlignRight" xml:space="preserve">
+    <value>จัดชิดขวา</value>
+  </data>
+  <data name="UD_TTip_FormatForeColor" xml:space="preserve">
+    <value>สีเบื้องหน้า</value>
+  </data>
+  <data name="UD_TTip_FormatBackColor" xml:space="preserve">
+    <value>สีพื้นหลัง</value>
+  </data>
+  <data name="UD_TTip_FormatJustify" xml:space="preserve">
+    <value>จัดให้</value>
+  </data>
+  <data name="UD_TTip_ItemDescription" xml:space="preserve">
+    <value>ลากและวางรายการนี้เพื่อสร้างการควบคุมที่ผูกไว้
+- หรือ -
+ลากรายการนี้ด้วยปุ่มเมาส์ขวาหรือ SHIFT
+เพื่อเลือกตัวควบคุมที่ถูกผูกไว้จากเมนูป๊อปอัพ
+- หรือ -
+ใช้เมนูบริบทเพื่อเพิ่มฟิลด์หรือพารามิเตอร์จากการคำนวณ</value>
+  </data>
+  <data name="UD_TTip_TableDescription" xml:space="preserve">
+    <value>ลากและวางรายการนี้เพื่อสร้างตารางที่มีรายการ
+- หรือ -
+ลากรายการนี้ด้วยปุ่มเมาส์ขวาหรือ SHIFT
+เพื่อสร้างตาราง 'ส่วนหัว' ด้วยชื่อเขตข้อมูล
+- หรือ -
+ใช้เมนูบริบทเพื่อเพิ่มฟิลด์หรือพารามิเตอร์จากการคำนวณ</value>
+  </data>
+  <data name="UD_TTip_DataMemberDescription" xml:space="preserve">
+    <value>
+
+สมาชิกข้อมูล: {0}</value>
+  </data>
+  <data name="UD_FormCaption" xml:space="preserve">
+    <value>ผู้ออกแบบรายงาน</value>
+  </data>
+  <data name="Verb_EditGroupFields" xml:space="preserve">
+    <value>แก้ไขเขตข้อมูลกลุ่ม...</value>
+  </data>
+  <data name="Verb_Import" xml:space="preserve">
+    <value>เปิด / นำเข้า...</value>
+  </data>
+  <data name="Verb_Export" xml:space="preserve">
+    <value>บันทึก / ส่งออก...</value>
+  </data>
+  <data name="Verb_Save" xml:space="preserve">
+    <value>บันทึก...</value>
+  </data>
+  <data name="Verb_About" xml:space="preserve">
+    <value>เกี่ยวกับ</value>
+  </data>
+  <data name="Verb_RTFClear" xml:space="preserve">
+    <value>เคลียร์</value>
+  </data>
+  <data name="Verb_RTFLoad" xml:space="preserve">
+    <value>โหลดไฟล์...</value>
+  </data>
+  <data name="Verb_FormatString" xml:space="preserve">
+    <value>รูปแบบสตริง...</value>
+  </data>
+  <data name="Verb_SummaryWizard" xml:space="preserve">
+    <value>สรุป...</value>
+  </data>
+  <data name="Verb_Insert" xml:space="preserve">
+    <value>แทรก...</value>
+  </data>
+  <data name="Verb_Delete" xml:space="preserve">
+    <value>ลบ...</value>
+  </data>
+  <data name="Verb_Bind" xml:space="preserve">
+    <value>ผูกติด</value>
+  </data>
+  <data name="Verb_EditText" xml:space="preserve">
+    <value>แก้ไขข้อความ</value>
+  </data>
+  <data name="Verb_AddFieldToArea" xml:space="preserve">
+    <value>เพิ่มฟิลด์ลงในพื้นที่</value>
+  </data>
+  <data name="Verb_RunDesigner" xml:space="preserve">
+    <value>เรียกใช้การออกแบบ...</value>
+  </data>
+  <data name="Verb_LoadReportTemplate" xml:space="preserve">
+    <value>โหลดเทมเพลตรายงาน...</value>
+  </data>
+  <data name="BCForm_Lbl_Property" xml:space="preserve">
+    <value>ทรัพย์สิน</value>
+  </data>
+  <data name="BCForm_Lbl_Binding" xml:space="preserve">
+    <value>ผูกพัน</value>
+  </data>
+  <data name="FRSForm_Caption" xml:space="preserve">
+    <value>ตัวแก้ไขเอกสาร กฎ การจัดรูปแบบ</value>
+  </data>
+  <data name="FRSForm_Msg_NoRuleSelected" xml:space="preserve">
+    <value>ไม่ได้เลือกกฎการจัดรูปแบบ</value>
+  </data>
+  <data name="FRSForm_Msg_MoreThanOneRule" xml:space="preserve">
+    <value>คุณเลือกกฎการจัดรูปแบบมากกว่าหนึ่งกฎ</value>
+  </data>
+  <data name="FRSForm_TTip_AddRule" xml:space="preserve">
+    <value>เพิ่มกฎการจัดรูปแบบ</value>
+  </data>
+  <data name="FRSForm_TTip_RemoveRule" xml:space="preserve">
+    <value>ลบกฎการจัดรูปแบบ</value>
+  </data>
+  <data name="FRSForm_TTip_ClearRules" xml:space="preserve">
+    <value>ล้างกฎการจัดรูปแบบ</value>
+  </data>
+  <data name="FRSForm_TTip_PurgeRules" xml:space="preserve">
+    <value>ลบกฎการจัดรูปแบบที่ไม่ได้ใช้</value>
+  </data>
+  <data name="SSForm_Caption" xml:space="preserve">
+    <value>ตัวแก้ไขสไตล์</value>
+  </data>
+  <data name="SSForm_Btn_Close" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="SSForm_Msg_NoStyleSelected" xml:space="preserve">
+    <value>ไม่ได้เลือกรูปแบบ</value>
+  </data>
+  <data name="SSForm_Msg_MoreThanOneStyle" xml:space="preserve">
+    <value>คุณเลือกมากกว่าหนึ่งสไตล์</value>
+  </data>
+  <data name="SSForm_Msg_SelectedStylesText" xml:space="preserve">
+    <value> รูปแบบที่เลือก...</value>
+  </data>
+  <data name="SSForm_Msg_StyleSheetError" xml:space="preserve">
+    <value>ข้อผิดพลาดสไตล์ชีต</value>
+  </data>
+  <data name="SSForm_Msg_InvalidFileFormat" xml:space="preserve">
+    <value>รูปแบบไฟล์ไม่ถูกต้อง</value>
+  </data>
+  <data name="SSForm_Msg_StyleNamePreviewPostfix" xml:space="preserve">
+    <value> สไตล์</value>
+  </data>
+  <data name="SSForm_Msg_FileFilter" xml:space="preserve">
+    <value>รายงานไฟล์ StyleSheet (* .repss) | * .repss | ไฟล์ทั้งหมด (*. *) | *. *</value>
+  </data>
+  <data name="SSForm_TTip_AddStyle" xml:space="preserve">
+    <value>เพิ่มสไตล์</value>
+  </data>
+  <data name="SSForm_TTip_RemoveStyle" xml:space="preserve">
+    <value>ลบสไตล์</value>
+  </data>
+  <data name="SSForm_TTip_ClearStyles" xml:space="preserve">
+    <value>รูปแบบที่ชัดเจน</value>
+  </data>
+  <data name="SSForm_TTip_PurgeStyles" xml:space="preserve">
+    <value>ลบสไตล์ที่ไม่ได้ใช้</value>
+  </data>
+  <data name="SSForm_TTip_SaveStyles" xml:space="preserve">
+    <value>บันทึกสไตล์ลงในไฟล์</value>
+  </data>
+  <data name="SSForm_TTip_LoadStyles" xml:space="preserve">
+    <value>โหลดสไตล์จากไฟล์</value>
+  </data>
+  <data name="SR_Side_Margins" xml:space="preserve">
+    <value>ระยะขอบด้านข้าง</value>
+  </data>
+  <data name="SR_Top_Margin" xml:space="preserve">
+    <value>ด้านบน
+ขอบ</value>
+  </data>
+  <data name="SR_Vertical_Pitch" xml:space="preserve">
+    <value>แนวตั้ง
+สนาม</value>
+  </data>
+  <data name="SR_Horizontal_Pitch" xml:space="preserve">
+    <value>สนามแนวนอน</value>
+  </data>
+  <data name="SR_Width" xml:space="preserve">
+    <value>ความกว้าง</value>
+  </data>
+  <data name="SR_Height" xml:space="preserve">
+    <value>ความสูง</value>
+  </data>
+  <data name="SR_Number_Down" xml:space="preserve">
+    <value>จำนวน
+ลง</value>
+  </data>
+  <data name="SR_Number_Across" xml:space="preserve">
+    <value>จำนวนข้าม</value>
+  </data>
+  <data name="ScriptEditor_ScriptHasBeenChanged" xml:space="preserve">
+    <value>บันทึกข้อผิดพลาดไม่เกี่ยวข้องกับสคริปต์จริงเนื่องจากสคริปต์ถูกเปลี่ยนแปลงหลังจากการตรวจสอบความถูกต้องครั้งสุดท้าย
+หากต้องการดูข้อผิดพลาดของสคริปต์ให้คลิกปุ่มตรวจสอบอีกครั้ง.</value>
+  </data>
+  <data name="ScriptEditor_ClickValidate" xml:space="preserve">
+    <value>คลิก "ตรวจสอบ" เพื่อตรวจสอบสคริปต์</value>
+  </data>
+  <data name="ScriptEditor_NewString" xml:space="preserve">
+    <value>(ใหม่)</value>
+  </data>
+  <data name="PanelDesignMsg" xml:space="preserve">
+    <value>วางส่วนควบคุมที่นี่เพื่อให้เข้าด้วยกัน</value>
+  </data>
+  <data name="MultiColumnDesignMsg1" xml:space="preserve">
+    <value>ช่องว่างสำหรับการทำซ้ำคอลัมน์</value>
+  </data>
+  <data name="MultiColumnDesignMsg2" xml:space="preserve">
+    <value>การควบคุมที่วางไว้ที่นี่จะพิมพ์ไม่ถูกต้อง</value>
+  </data>
+  <data name="UD_Capt_ZoomFactor" xml:space="preserve">
+    <value>ปัจจัยการซูม: {0}%</value>
+  </data>
+  <data name="UD_PropertyGrid_NotSetText" xml:space="preserve">
+    <value>(ไม่ได้ตั้งค่า)</value>
+  </data>
+  <data name="UD_SaveFileDialog_DialogFilter" xml:space="preserve">
+    <value>ไฟล์รายงาน (* {0}) | * {1} | ไฟล์ทั้งหมด (*. *) | *. *</value>
+  </data>
+  <data name="UD_Title_FieldList_ProjectObjectsText" xml:space="preserve">
+    <value>วัตถุโครงการ</value>
+  </data>
+  <data name="UD_Title_ReportExplorer_NullControl" xml:space="preserve">
+    <value>ไม่มี</value>
+  </data>
+  <data name="UD_Title_ToolBox" xml:space="preserve">
+    <value>กล่องเครื่องมือ</value>
+  </data>
+  <data name="STag_Name_DataBinding" xml:space="preserve">
+    <value>การผูกข้อมูล</value>
+  </data>
+  <data name="STag_Name_FormatString" xml:space="preserve">
+    <value>รูปแบบสตริง</value>
+  </data>
+  <data name="STag_Name_Checked" xml:space="preserve">
+    <value>ตรวจสอบแล้ว</value>
+  </data>
+  <data name="STag_Name_PreviewRowCount" xml:space="preserve">
+    <value>แสดงตัวอย่างจำนวนแถว</value>
+  </data>
+  <data name="STag_Name_Bands" xml:space="preserve">
+    <value>กลุ่ม</value>
+  </data>
+  <data name="STag_Name_Height" xml:space="preserve">
+    <value>ความสูง</value>
+  </data>
+  <data name="STag_Name_FieldArea" xml:space="preserve">
+    <value>พื้นที่เขตข้อมูลสำหรับเขตข้อมูลใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_PageText" xml:space="preserve">
+    <value>ผู้ออกแบบรายงาน</value>
+  </data>
+  <data name="RibbonXRDesign_ToolboxControlsPage" xml:space="preserve">
+    <value>กล่องเครื่องมือ</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlPageText" xml:space="preserve">
+    <value>มุมมอง HTML</value>
+  </data>
+  <data name="RibbonXRDesign_StatusBar_HtmlProcessing" xml:space="preserve">
+    <value>กำลังประมวลผล...</value>
+  </data>
+  <data name="RibbonXRDesign_StatusBar_HtmlDone" xml:space="preserve">
+    <value>เสร็จแล้ว</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Report" xml:space="preserve">
+    <value>รายงาน</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Edit" xml:space="preserve">
+    <value>แก้ไข</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Font" xml:space="preserve">
+    <value>แบบอักษร</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Alignment" xml:space="preserve">
+    <value>การจัดตำแหน่ง</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_SizeAndLayout" xml:space="preserve">
+    <value>เค้าโครง</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Zoom" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_View" xml:space="preserve">
+    <value>ดู</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_Scripts" xml:space="preserve">
+    <value>สคริปต์</value>
+  </data>
+  <data name="RibbonXRDesign_PageGroup_HtmlNavigation" xml:space="preserve">
+    <value>การนำทาง</value>
+  </data>
+  <data name="RibbonXRDesign_AlignToGrid_Caption" xml:space="preserve">
+    <value>จัดแนวกับกริด</value>
+  </data>
+  <data name="RibbonXRDesign_AlignLeft_Caption" xml:space="preserve">
+    <value>จัดชิดซ้าย</value>
+  </data>
+  <data name="RibbonXRDesign_AlignVerticalCenters_Caption" xml:space="preserve">
+    <value>จัดแนวศูนย์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignRight_Caption" xml:space="preserve">
+    <value>จัดแนวสิทธิ์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignTop_Caption" xml:space="preserve">
+    <value>จัดแนวท็อปส์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignHorizontalCenters_Caption" xml:space="preserve">
+    <value>จัดแนวกลาง</value>
+  </data>
+  <data name="RibbonXRDesign_AlignBottom_Caption" xml:space="preserve">
+    <value>จัดแนวด้านล่าง</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlWidth_Caption" xml:space="preserve">
+    <value>สร้างความกว้างให้เท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToGrid_Caption" xml:space="preserve">
+    <value>ขนาดเป็นตาราง</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlHeight_Caption" xml:space="preserve">
+    <value>ทำให้สูงเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControl_Caption" xml:space="preserve">
+    <value>ทำให้มีขนาดเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวนอนเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceIncrease_Caption" xml:space="preserve">
+    <value>เพิ่มระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceDecrease_Caption" xml:space="preserve">
+    <value>ลดระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceConcatenate_Caption" xml:space="preserve">
+    <value>ลบระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceMakeEqual_Caption" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวตั้งเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceIncrease_Caption" xml:space="preserve">
+    <value>เพิ่มระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceDecrease_Caption" xml:space="preserve">
+    <value>ลดระยะห่างในแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceConcatenate_Caption" xml:space="preserve">
+    <value>ลบระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_CenterHorizontally_Caption" xml:space="preserve">
+    <value>กึ่งกลางแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_CenterVertically_Caption" xml:space="preserve">
+    <value>ศูนย์ในแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_BringToFront_Caption" xml:space="preserve">
+    <value>นำไปที่ด้านหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_SendToBack_Caption" xml:space="preserve">
+    <value>ส่งกลับ</value>
+  </data>
+  <data name="RibbonXRDesign_FontBold_Caption" xml:space="preserve">
+    <value>ตัวหนา</value>
+  </data>
+  <data name="RibbonXRDesign_FontItalic_Caption" xml:space="preserve">
+    <value>ตัวเอียง</value>
+  </data>
+  <data name="RibbonXRDesign_FontUnderline_Caption" xml:space="preserve">
+    <value>ขีดเส้นใต้</value>
+  </data>
+  <data name="RibbonXRDesign_ForeColor_Caption" xml:space="preserve">
+    <value>เส้นเส้นใต้</value>
+  </data>
+  <data name="RibbonXRDesign_BackColor_Caption" xml:space="preserve">
+    <value>สีพื้นหลัง</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyLeft_Caption" xml:space="preserve">
+    <value>จัดข้อความชิดซ้าย</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyCenter_Caption" xml:space="preserve">
+    <value>ข้อความตรงกลาง</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyRight_Caption" xml:space="preserve">
+    <value>จัดข้อความชิดขวา</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyJustify_Caption" xml:space="preserve">
+    <value>จัดให้</value>
+  </data>
+  <data name="RibbonXRDesign_NewReport_Caption" xml:space="preserve">
+    <value>รายงานใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_NewReportWizard_Caption" xml:space="preserve">
+    <value>รายงานใหม่ผ่านตัวช่วยสร้าง...</value>
+  </data>
+  <data name="RibbonXRDesign_OpenFile_Caption" xml:space="preserve">
+    <value>เปิด...</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFile_Caption" xml:space="preserve">
+    <value>บันทึก</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFileAs_Caption" xml:space="preserve">
+    <value>บันทึกเป็น...</value>
+  </data>
+  <data name="RibbonXRDesign_SaveAll_Caption" xml:space="preserve">
+    <value>บันทึกทั้งหมด</value>
+  </data>
+  <data name="RibbonXRDesign_Cut_Caption" xml:space="preserve">
+    <value>ตัด</value>
+  </data>
+  <data name="RibbonXRDesign_Copy_Caption" xml:space="preserve">
+    <value>คัดลอก</value>
+  </data>
+  <data name="RibbonXRDesign_Paste_Caption" xml:space="preserve">
+    <value>วาง</value>
+  </data>
+  <data name="RibbonXRDesign_Undo_Caption" xml:space="preserve">
+    <value>เลิกทำ</value>
+  </data>
+  <data name="RibbonXRDesign_Redo_Caption" xml:space="preserve">
+    <value>ทำซ้ำ</value>
+  </data>
+  <data name="RibbonXRDesign_Exit_Caption" xml:space="preserve">
+    <value>ออก</value>
+  </data>
+  <data name="RibbonXRDesign_Close_Caption" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="RibbonXRDesign_Zoom_Caption" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomIn_Caption" xml:space="preserve">
+    <value>ซูมเข้า</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomOut_Caption" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomExact_Caption" xml:space="preserve">
+    <value>แน่นอน:</value>
+  </data>
+  <data name="RibbonXRDesign_Windows_Caption" xml:space="preserve">
+    <value>วินโดว์</value>
+  </data>
+  <data name="RibbonXRDesign_Scripts_Caption" xml:space="preserve">
+    <value>สคริปต์</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlHome_Caption" xml:space="preserve">
+    <value>โฮม</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlBackward_Caption" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlForward_Caption" xml:space="preserve">
+    <value>ไปข้างหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlRefresh_Caption" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlFind_Caption" xml:space="preserve">
+    <value>หา</value>
+  </data>
+  <data name="RibbonXRDesign_AlignToGrid_STipTitle" xml:space="preserve">
+    <value>จัดแนวกับกริด</value>
+  </data>
+  <data name="RibbonXRDesign_AlignLeft_STipTitle" xml:space="preserve">
+    <value>จัดชิดซ้าย</value>
+  </data>
+  <data name="RibbonXRDesign_AlignVerticalCenters_STipTitle" xml:space="preserve">
+    <value>จัดแนวศูนย์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignRight_STipTitle" xml:space="preserve">
+    <value>จัดแนวสิทธิ์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignTop_STipTitle" xml:space="preserve">
+    <value>จัดแนวท็อปส์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignHorizontalCenters_STipTitle" xml:space="preserve">
+    <value>จัดแนวมิดเดิลส์</value>
+  </data>
+  <data name="RibbonXRDesign_AlignBottom_STipTitle" xml:space="preserve">
+    <value>จัดแนวด้านล่าง</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlWidth_STipTitle" xml:space="preserve">
+    <value>สร้างความกว้างให้เท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToGrid_STipTitle" xml:space="preserve">
+    <value>ขนาดเป็นตาราง</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlHeight_STipTitle" xml:space="preserve">
+    <value>ทำให้สูงเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControl_STipTitle" xml:space="preserve">
+    <value>ทำให้มีขนาดเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวนอนเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>เพิ่มระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>ลดระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>ลบระยะห่างในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceMakeEqual_STipTitle" xml:space="preserve">
+    <value>ทำให้ระยะห่างในแนวตั้งเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceIncrease_STipTitle" xml:space="preserve">
+    <value>เพิ่มระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceDecrease_STipTitle" xml:space="preserve">
+    <value>ลดระยะห่างในแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceConcatenate_STipTitle" xml:space="preserve">
+    <value>ลบระยะห่างแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_CenterHorizontally_STipTitle" xml:space="preserve">
+    <value>กึ่งกลางแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_CenterVertically_STipTitle" xml:space="preserve">
+    <value>กึ่งกลางแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_BringToFront_STipTitle" xml:space="preserve">
+    <value>นำไปที่ด้านหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_SendToBack_STipTitle" xml:space="preserve">
+    <value>ส่งกลับ</value>
+  </data>
+  <data name="RibbonXRDesign_FontBold_STipTitle" xml:space="preserve">
+    <value>ตัวหนา</value>
+  </data>
+  <data name="RibbonXRDesign_FontItalic_STipTitle" xml:space="preserve">
+    <value>ตัวเอียง</value>
+  </data>
+  <data name="RibbonXRDesign_FontUnderline_STipTitle" xml:space="preserve">
+    <value>ขีดเส้นใต้</value>
+  </data>
+  <data name="RibbonXRDesign_ForeColor_STipTitle" xml:space="preserve">
+    <value>สีเบื้องหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_BackColor_STipTitle" xml:space="preserve">
+    <value>สีพื้นหลัง</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyLeft_STipTitle" xml:space="preserve">
+    <value>จัดข้อความชิดซ้าย</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyCenter_STipTitle" xml:space="preserve">
+    <value>ข้อความตรงกลาง</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyRight_STipTitle" xml:space="preserve">
+    <value>จัดข้อความชิดขวา</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyJustify_STipTitle" xml:space="preserve">
+    <value>จัดให้</value>
+  </data>
+  <data name="RibbonXRDesign_NewReport_STipTitle" xml:space="preserve">
+    <value>รายงานเปล่าใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_NewReportWizard_STipTitle" xml:space="preserve">
+    <value>รายงานใหม่ผ่านตัวช่วยสร้าง</value>
+  </data>
+  <data name="RibbonXRDesign_OpenFile_STipTitle" xml:space="preserve">
+    <value>เปิดรายงาน</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFile_STipTitle" xml:space="preserve">
+    <value>บันทึกรายงาน</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFileAs_STipTitle" xml:space="preserve">
+    <value>บันทึกรายงานเป็น</value>
+  </data>
+  <data name="RibbonXRDesign_SaveAll_STipTitle" xml:space="preserve">
+    <value>บันทึกรายงานทั้งหมด</value>
+  </data>
+  <data name="RibbonXRDesign_Cut_STipTitle" xml:space="preserve">
+    <value>ตัด</value>
+  </data>
+  <data name="RibbonXRDesign_Copy_STipTitle" xml:space="preserve">
+    <value>สำเนา</value>
+  </data>
+  <data name="RibbonXRDesign_Paste_STipTitle" xml:space="preserve">
+    <value>วาง</value>
+  </data>
+  <data name="RibbonXRDesign_Undo_STipTitle" xml:space="preserve">
+    <value>เลิกทำ</value>
+  </data>
+  <data name="RibbonXRDesign_Redo_STipTitle" xml:space="preserve">
+    <value>ทำซ้ำ</value>
+  </data>
+  <data name="RibbonXRDesign_Exit_STipTitle" xml:space="preserve">
+    <value>ออก</value>
+  </data>
+  <data name="RibbonXRDesign_Close_STipTitle" xml:space="preserve">
+    <value>ปิด</value>
+  </data>
+  <data name="RibbonXRDesign_Zoom_STipTitle" xml:space="preserve">
+    <value>ซูม</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomIn_STipTitle" xml:space="preserve">
+    <value>ซูมเข้า</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomOut_STipTitle" xml:space="preserve">
+    <value>ซูมออก</value>
+  </data>
+  <data name="RibbonXRDesign_FontName_STipTitle" xml:space="preserve">
+    <value>แบบอักษร</value>
+  </data>
+  <data name="RibbonXRDesign_FontSize_STipTitle" xml:space="preserve">
+    <value>ขนาดตัวอักษร</value>
+  </data>
+  <data name="RibbonXRDesign_Windows_STipTitle" xml:space="preserve">
+    <value>แสดง / ซ่อน Windows</value>
+  </data>
+  <data name="RibbonXRDesign_Scripts_STipTitle" xml:space="preserve">
+    <value>แสดง / ซ่อนสคริปต์</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlHome_STipTitle" xml:space="preserve">
+    <value>โฮม</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlBackward_STipTitle" xml:space="preserve">
+    <value>กลับ</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlForward_STipTitle" xml:space="preserve">
+    <value>ไปข้างหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlRefresh_STipTitle" xml:space="preserve">
+    <value>รีเฟรช</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlFind_STipTitle" xml:space="preserve">
+    <value>หา</value>
+  </data>
+  <data name="RibbonXRDesign_AlignToGrid_STipContent" xml:space="preserve">
+    <value>จัดตำแหน่งของตัวควบคุมที่เลือกให้ตรงกับเส้นตาราง</value>
+  </data>
+  <data name="RibbonXRDesign_AlignLeft_STipContent" xml:space="preserve">
+    <value>จัดชิดซ้ายของตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_AlignVerticalCenters_STipContent" xml:space="preserve">
+    <value>จัดแนวกึ่งกลางของตัวควบคุมที่เลือกในแนวตั้ง</value>
+  </data>
+  <data name="RibbonXRDesign_AlignRight_STipContent" xml:space="preserve">
+    <value>จัดชิดขวาของตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_AlignTop_STipContent" xml:space="preserve">
+    <value>จัดแนวด้านบนของตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_AlignHorizontalCenters_STipContent" xml:space="preserve">
+    <value>จัดตำแหน่งกึ่งกลางของตัวควบคุมที่เลือกในแนวนอน</value>
+  </data>
+  <data name="RibbonXRDesign_AlignBottom_STipContent" xml:space="preserve">
+    <value>จัดแนวด้านล่างของตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlWidth_STipContent" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีความกว้างเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToGrid_STipContent" xml:space="preserve">
+    <value>ปรับขนาดตัวควบคุมที่เลือกเป็นเส้นตาราง</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControlHeight_STipContent" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีความสูงเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_SizeToControl_STipContent" xml:space="preserve">
+    <value>ทำให้ตัวควบคุมที่เลือกมีขนาดเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>ทำให้ระยะห่างแนวนอนระหว่างตัวควบคุมที่เลือกเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceIncrease_STipContent" xml:space="preserve">
+    <value>เพิ่มระยะห่างแนวนอนระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceDecrease_STipContent" xml:space="preserve">
+    <value>ลดระยะห่างแนวนอนระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_HorizSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>ลบระยะห่างแนวนอนระหว่างตัวควบคุมที่เลือก.</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceMakeEqual_STipContent" xml:space="preserve">
+    <value>ทำให้ระยะห่างแนวตั้งระหว่างตัวควบคุมที่เลือกเท่ากัน</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceIncrease_STipContent" xml:space="preserve">
+    <value>เพิ่มระยะห่างแนวตั้งระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceDecrease_STipContent" xml:space="preserve">
+    <value>ลดระยะห่างแนวตั้งระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_VertSpaceConcatenate_STipContent" xml:space="preserve">
+    <value>ลบระยะห่างแนวตั้งระหว่างตัวควบคุมที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_CenterHorizontally_STipContent" xml:space="preserve">
+    <value>จัดกึ่งกลางการควบคุมที่เลือกในแนวนอนภายในวงดนตรี</value>
+  </data>
+  <data name="RibbonXRDesign_CenterVertically_STipContent" xml:space="preserve">
+    <value>จัดกึ่งกลางการควบคุมที่เลือกในแนวตั้งภายในวงดนตรี</value>
+  </data>
+  <data name="RibbonXRDesign_BringToFront_STipContent" xml:space="preserve">
+    <value>นำตัวควบคุมที่เลือกไว้ด้านหน้า</value>
+  </data>
+  <data name="RibbonXRDesign_SendToBack_STipContent" xml:space="preserve">
+    <value>ย้ายตัวควบคุมที่เลือกไปด้านหลัง</value>
+  </data>
+  <data name="RibbonXRDesign_FontBold_STipContent" xml:space="preserve">
+    <value>ทำให้ข้อความที่เลือกเป็นตัวหนา</value>
+  </data>
+  <data name="RibbonXRDesign_FontItalic_STipContent" xml:space="preserve">
+    <value>ทำให้ข้อความเป็นตัวเอียง</value>
+  </data>
+  <data name="RibbonXRDesign_FontUnderline_STipContent" xml:space="preserve">
+    <value>ขีดเส้นใต้ข้อความที่เลือก</value>
+  </data>
+  <data name="RibbonXRDesign_ForeColor_STipContent" xml:space="preserve">
+    <value>เปลี่ยนสีพื้นหน้าของข้อความ</value>
+  </data>
+  <data name="RibbonXRDesign_BackColor_STipContent" xml:space="preserve">
+    <value>เปลี่ยนสีพื้นหลังของข้อความ</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyLeft_STipContent" xml:space="preserve">
+    <value>จัดข้อความชิดซ้าย</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyCenter_STipContent" xml:space="preserve">
+    <value>ข้อความตรงกลาง</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyRight_STipContent" xml:space="preserve">
+    <value>จัดแนวข้อความไปทางขวา</value>
+  </data>
+  <data name="RibbonXRDesign_JustifyJustify_STipContent" xml:space="preserve">
+    <value>จัดแนวข้อความทั้งด้านซ้ายและด้านขวาโดยเพิ่มช่องว่างระหว่างคำตามความจำเป็น</value>
+  </data>
+  <data name="RibbonXRDesign_Close_STipContent" xml:space="preserve">
+    <value>ปิดรายงานปัจจุบัน.</value>
+  </data>
+  <data name="RibbonXRDesign_Exit_STipContent" xml:space="preserve">
+    <value>ปิดตัวออกแบบรายงาน</value>
+  </data>
+  <data name="RibbonXRDesign_NewReport_STipContent" xml:space="preserve">
+    <value>สร้างรายงานเปล่าใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_NewReportWizard_STipContent" xml:space="preserve">
+    <value>เปิดตัวช่วยสร้างรายงานเพื่อสร้างรายงานใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_OpenFile_STipContent" xml:space="preserve">
+    <value>เปิดรายงาน.</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFile_STipContent" xml:space="preserve">
+    <value>บันทึกรายงานปัจจุบัน</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFileAs_STipContent" xml:space="preserve">
+    <value>บันทึกรายงานปัจจุบันด้วยชื่อใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_SaveAll_STipContent" xml:space="preserve">
+    <value>บันทึกรายงานที่แก้ไขทั้งหมด</value>
+  </data>
+  <data name="RibbonXRDesign_Cut_STipContent" xml:space="preserve">
+    <value>ตัดตัวควบคุมที่เลือกออกจากรายงานและวางไว้บนคลิปบอร์ด</value>
+  </data>
+  <data name="RibbonXRDesign_Copy_STipContent" xml:space="preserve">
+    <value>คัดลอกตัวควบคุมที่เลือกและวางไว้บนคลิปบอร์ด</value>
+  </data>
+  <data name="RibbonXRDesign_Paste_STipContent" xml:space="preserve">
+    <value>วางเนื้อหาของคลิปบอร์ด</value>
+  </data>
+  <data name="RibbonXRDesign_Undo_STipContent" xml:space="preserve">
+    <value>ยกเลิกการดำเนินการล่าสุด</value>
+  </data>
+  <data name="RibbonXRDesign_Redo_STipContent" xml:space="preserve">
+    <value>ทำซ้ำการดำเนินการล่าสุด</value>
+  </data>
+  <data name="RibbonXRDesign_Zoom_STipContent" xml:space="preserve">
+    <value>เปลี่ยนระดับการซูมของตัวออกแบบเอกสาร</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomIn_STipContent" xml:space="preserve">
+    <value>ซูมเข้าเพื่อดูรายงานในระยะใกล้</value>
+  </data>
+  <data name="RibbonXRDesign_ZoomOut_STipContent" xml:space="preserve">
+    <value>ย่อเพื่อดูรายงานเพิ่มเติมในขนาดที่ลดลง</value>
+  </data>
+  <data name="RibbonXRDesign_FontName_STipContent" xml:space="preserve">
+    <value>เปลี่ยนแบบอักษร.</value>
+  </data>
+  <data name="RibbonXRDesign_FontSize_STipContent" xml:space="preserve">
+    <value>เปลี่ยนขนาดตัวอักษร</value>
+  </data>
+  <data name="RibbonXRDesign_Windows_STipContent" xml:space="preserve">
+    <value>แสดงหรือซ่อนหน้าต่าง Tool Bar, Report Explorer, Field List และ Property Grid</value>
+  </data>
+  <data name="RibbonXRDesign_Scripts_STipContent" xml:space="preserve">
+    <value>แสดงหรือซ่อนโปรแกรมแก้ไขสคริปต์</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlHome_STipContent" xml:space="preserve">
+    <value>แสดงโฮมเพจ</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlBackward_STipContent" xml:space="preserve">
+    <value>ย้ายกลับไปที่หน้าที่แล้ว</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlForward_STipContent" xml:space="preserve">
+    <value>เลื่อนไปหน้าถัดไป</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlRefresh_STipContent" xml:space="preserve">
+    <value>รีเฟรชหน้านี้.</value>
+  </data>
+  <data name="RibbonXRDesign_HtmlFind_STipContent" xml:space="preserve">
+    <value>ค้นหาข้อความในหน้านี้</value>
+  </data>
+  <data name="RibbonXRDesign_NewReport_Description" xml:space="preserve">
+    <value>สร้างรายงานเปล่าใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_NewReportWizard_Description" xml:space="preserve">
+    <value>เปิดตัวช่วยสร้างรายงานเพื่อสร้างรายงานใหม่</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFile_Description" xml:space="preserve">
+    <value>บันทึกรายงานปัจจุบัน</value>
+  </data>
+  <data name="RibbonXRDesign_SaveFileAs_Description" xml:space="preserve">
+    <value>บันทึกรายงานปัจจุบันด้วยชื่อใหม่</value>
+  </data>
+  <data name="XRSubreport_NameInfo" xml:space="preserve">
+    <value>ชื่อ: {0}</value>
+  </data>
+  <data name="XRSubreport_NullReportSourceInfo" xml:space="preserve">
+    <value>โมฆะ</value>
+  </data>
+  <data name="XRSubreport_ReportSourceInfo" xml:space="preserve">
+    <value>แหล่งที่มาของรายงาน: {0}</value>
+  </data>
+  <data name="XRSubreport_ReportSourceUrlInfo" xml:space="preserve">
+    <value>URL แหล่งที่มาของรายงาน: {0}</value>
+  </data>
+  <data name="PivotGridForm_GroupMain_Caption" xml:space="preserve">
+    <value>หลัก</value>
+  </data>
+  <data name="PivotGridForm_GroupMain_Description" xml:space="preserve">
+    <value>การตั้งค่าหลัก (ฟิลด์เค้าโครง).</value>
+  </data>
+  <data name="PivotGridForm_ItemFields_Caption" xml:space="preserve">
+    <value>วง</value>
+  </data>
+  <data name="PivotGridForm_ItemFields_Description" xml:space="preserve">
+    <value>จัดการฟิลด์</value>
+  </data>
+  <data name="PivotGridForm_ItemLayout_Caption" xml:space="preserve">
+    <value>เค้าโครง</value>
+  </data>
+  <data name="PivotGridForm_ItemLayout_Description" xml:space="preserve">
+    <value>ปรับแต่งเค้าโครงของ XR PivotGrid ปัจจุบันและดูตัวอย่างข้อมูล</value>
+  </data>
+  <data name="PivotGridForm_GroupPrinting_Caption" xml:space="preserve">
+    <value>การพิมพ์</value>
+  </data>
+  <data name="PivotGridForm_GroupPrinting_Description" xml:space="preserve">
+    <value>การจัดการตัวเลือกการพิมพ์สำหรับ XRPivotGrid ปัจจุบัน.</value>
+  </data>
+  <data name="PivotGridForm_ItemAppearances_Caption" xml:space="preserve">
+    <value>การปรากฏตัว</value>
+  </data>
+  <data name="PivotGridForm_ItemAppearances_Description" xml:space="preserve">
+    <value>ปรับลักษณะการพิมพ์ของ XRPivotGrid ปัจจุบัน</value>
+  </data>
+  <data name="PivotGridForm_ItemSettings_Caption" xml:space="preserve">
+    <value>การตั้งค่าการพิมพ์</value>
+  </data>
+  <data name="PivotGridForm_ItemSettings_Description" xml:space="preserve">
+    <value>ปรับการตั้งค่าการพิมพ์สำหรับ XRPivotGrid ปัจจุบัน</value>
+  </data>
+  <data name="PivotGridFrame_Fields_ColumnsText" xml:space="preserve">
+    <value>เขตข้อมูล XRPivotGrid</value>
+  </data>
+  <data name="PivotGridFrame_Fields_DescriptionText1" xml:space="preserve">
+    <value>คุณสามารถเพิ่มและลบฟิลด์ XRPivotGrid และแก้ไขการตั้งค่าได้</value>
+  </data>
+  <data name="PivotGridFrame_Fields_DescriptionText2" xml:space="preserve">
+    <value>เลือกและลากเขตข้อมูลไปยังแผงเขตข้อมูล PivotGrid เพื่อสร้างเขตข้อมูล PivotGrid</value>
+  </data>
+  <data name="PivotGridFrame_Layouts_DescriptionText" xml:space="preserve">
+    <value>แก้ไขเลย์เอาต์ของ XRPivotGrid (การตั้งค่าการเรียงลำดับการจัดเรียงฟิลด์) และคลิกปุ่มนำไปใช้เพื่อใช้การแก้ไขกับ XRPivotGrid ปัจจุบัน คุณยังสามารถบันทึกเค้าโครงเป็นไฟล์ XML (สามารถโหลดและนำไปใช้กับมุมมองอื่น ๆ ได้ในเวลาออกแบบและรันไทม์)</value>
+  </data>
+  <data name="PivotGridFrame_Layouts_SelectorCaption1" xml:space="preserve">
+    <value>ซ่อนฟิลด์ &amp; ตัวเลือก</value>
+  </data>
+  <data name="PivotGridFrame_Layouts_SelectorCaption2" xml:space="preserve">
+    <value>แสดงฟิลด์ &amp; ตัวเลือก</value>
+  </data>
+  <data name="PivotGridFrame_Appearances_DescriptionText" xml:space="preserve">
+    <value>เลือกวัตถุลักษณะที่ปรากฏอย่างน้อยหนึ่งรายการเพื่อปรับแต่งลักษณะการพิมพ์ขององค์ประกอบภาพที่เกี่ยวข้อง</value>
+  </data>
+  <data name="Wizard_PageChooseFields_Msg" xml:space="preserve">
+    <value>คุณต้องเลือกฟิลด์สำหรับรายงานก่อนที่จะดำเนินการต่อ</value>
+  </data>
+  <data name="NewParameterEditorForm_DataSource" xml:space="preserve">
+    <value>ที่อยู่ข้อมูล:</value>
+  </data>
+  <data name="NewParameterEditorForm_DataAdapter" xml:space="preserve">
+    <value>อะแดปเตอร์ข้อมูล:</value>
+  </data>
+  <data name="NewParameterEditorForm_DataMember" xml:space="preserve">
+    <value>สมาชิกข้อมูล:</value>
+  </data>
+  <data name="NewParameterEditorForm_ValueMember" xml:space="preserve">
+    <value>สมาชิกค่า:</value>
+  </data>
+  <data name="NewParameterEditorForm_DisplayMember" xml:space="preserve">
+    <value>แสดงสมาชิก:</value>
+  </data>
+  <data name="BindingMapperForm_InvalidBindingWarning" xml:space="preserve">
+    <value>ผูกไม่ถูกต้อง</value>
+  </data>
+  <data name="BindingMapperForm_ShowOnlyInvalidBindings" xml:space="preserve">
+    <value>แสดงเฉพาะเชื่อมโยงที่ไม่ถูกต้อง</value>
+  </data>
+  <data name="XRTableOfContents_LevelCollectionEditor_Title" xml:space="preserve">
+    <value>สารบัญตัวแก้ไขระดับคอลเลกชัน</value>
+  </data>
+  <data name="PPF_Preview_Caption" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="Page_Scroll" xml:space="preserve">
+    <value>เลื่อนหน้า</value>
+  </data>
+  <data name="dlgSaveAs" xml:space="preserve">
+    <value>บันทึกเป็น</value>
+  </data>
+  <data name="dlgSendFrom" xml:space="preserve">
+    <value>dlgSendFrom</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageOrientationPortrait_Description" xml:space="preserve">
+    <value>RibbonPreview_GalleryItem_PageOrientationPortrait_Description</value>
+  </data>
+  <data name="RibbonPreview_GalleryItem_PageOrientationLandscape_Description" xml:space="preserve">
+    <value>RibbonPreview_GalleryItem_PageOrientationLandscape_Description</value>
+  </data>
+  <data name="Msg_CyclicBoormarks" xml:space="preserve">
+    <value>Msg_CyclicBoormarks</value>
+  </data>
+  <data name="Msg_ScriptingErrorTitle" xml:space="preserve">
+    <value>หัวข้อข้อผิดพลาดในการเขียนสคริปต์</value>
+  </data>
+  <data name="TB_CustomizeBtn_ToolTip" xml:space="preserve">
+    <value>TB_CustomizeBtn_ToolTip</value>
+  </data>
+  <data name="TB_PrintBtn_ToolTip" xml:space="preserve">
+    <value>TB_PrintBtn_ToolTip</value>
+  </data>
+  <data name="TB_PrintDirectBtn_ToolTip" xml:space="preserve">
+    <value>TB_PrintDirectBtn_ToolTip</value>
+  </data>
+  <data name="TB_PageSetupBtn_ToolTip" xml:space="preserve">
+    <value>TB_PageSetupBtn_ToolTip</value>
+  </data>
+  <data name="TB_MagnifierBtn_ToolTip" xml:space="preserve">
+    <value>TB_MagnifierBtn_ToolTip</value>
+  </data>
+  <data name="TB_ZoomInBtn_ToolTip" xml:space="preserve">
+    <value>TB_ZoomInBtn_ToolTip</value>
+  </data>
+  <data name="TB_ZoomOutBtn_ToolTip" xml:space="preserve">
+    <value>TB_ZoomOutBtn_ToolTip</value>
+  </data>
+  <data name="TB_ZoomBtn_ToolTip" xml:space="preserve">
+    <value>TB_ZoomBtn_ToolTip</value>
+  </data>
+  <data name="TB_SearchBtn_ToolTip" xml:space="preserve">
+    <value>TB_SearchBtn_ToolTip</value>
+  </data>
+  <data name="TB_FirstPageBtn_ToolTip" xml:space="preserve">
+    <value>TB_FirstPageBtn_ToolTip</value>
+  </data>
+  <data name="TB_PreviousPageBtn_ToolTip" xml:space="preserve">
+    <value>TB_PreviousPageBtn_ToolTip</value>
+  </data>
+  <data name="TB_NextPageBtn_ToolTip" xml:space="preserve">
+    <value>TB_NextPageBtn_ToolTip</value>
+  </data>
+  <data name="TB_LastPageBtn_ToolTip" xml:space="preserve">
+    <value>TB_LastPageBtn_ToolTip</value>
+  </data>
+  <data name="TB_MultiplePagesBtn_ToolTip" xml:space="preserve">
+    <value>TB_MultiplePagesBtn_ToolTip</value>
+  </data>
+  <data name="TB_BackGroundBtn_ToolTip" xml:space="preserve">
+    <value>TB_BackGroundBtn_ToolTip</value>
+  </data>
+  <data name="TB_ClosePreviewBtn_ToolTip" xml:space="preserve">
+    <value>TB_ClosePreviewBtn_ToolTip</value>
+  </data>
+  <data name="TB_EditPageHFBtn_ToolTip" xml:space="preserve">
+    <value>TB_EditPageHFBtn_ToolTip</value>
+  </data>
+  <data name="TB_HandToolBtn_ToolTip" xml:space="preserve">
+    <value>TB_HandToolBtn_ToolTip</value>
+  </data>
+  <data name="TB_ExportBtn_ToolTip" xml:space="preserve">
+    <value>TB_ExportBtn_ToolTip</value>
+  </data>
+  <data name="TB_SendBtn_ToolTip" xml:space="preserve">
+    <value>TB_SendBtn_ToolTip</value>
+  </data>
+  <data name="TB_DocMap_ToolTip" xml:space="preserve">
+    <value>TB_DocMap_ToolTip</value>
+  </data>
+  <data name="TB_Watermark_ToolTip" xml:space="preserve">
+    <value>TB_Watermark_ToolTip</value>
+  </data>
+  <data name="barExport_PDF_Document" xml:space="preserve">
+    <value>อส่งออกเอกสารเป็นไฟล์PDF</value>
+  </data>
+  <data name="barExport_Text_Document" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์Text</value>
+  </data>
+  <data name="barExport_CSV_Document" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์CSV</value>
+  </data>
+  <data name="barExport_MHT_Document" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์MHT</value>
+  </data>
+  <data name="barExport_Excel_Document" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์Excel</value>
+  </data>
+  <data name="barExport_RichTextDocument" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์RichText</value>
+  </data>
+  <data name="barExport_HTMLDocument" xml:space="preserve">
+    <value>ส่งออกเอกสารเป็นไฟล์HTML</value>
+  </data>
+  <data name="barExport_BMP" xml:space="preserve">
+    <value>barExport_BMP</value>
+  </data>
+  <data name="barExport_GIF" xml:space="preserve">
+    <value>barExport_GIF</value>
+  </data>
+  <data name="barExport_JPEG" xml:space="preserve">
+    <value>barExport_JPEG</value>
+  </data>
+  <data name="barExport_PNG" xml:space="preserve">
+    <value>barExport_PNG</value>
+  </data>
+  <data name="barExport_TIFF" xml:space="preserve">
+    <value>barExport_TIFF</value>
+  </data>
+  <data name="barExport_EMF" xml:space="preserve">
+    <value>barExport_EMF</value>
+  </data>
+  <data name="barExport_WMF" xml:space="preserve">
+    <value>barExport_WMF</value>
+  </data>
+  <data name="SB_TotalPageNo" xml:space="preserve">
+    <value>SB_TotalPageNo</value>
+  </data>
+  <data name="SB_CurrentPageNo" xml:space="preserve">
+    <value>SB_CurrentPageNo</value>
+  </data>
+  <data name="SB_PageInfo_OF" xml:space="preserve">
+    <value>SB_PageInfo_OF</value>
+  </data>
+  <data name="PCE_PageContentEditor_Caption" xml:space="preserve">
+    <value>ตัวแก้ไขเนื้อหาของเพจ_คำบรรยาย</value>
+  </data>
+  <data name="PCE_PageNumber_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ เลขหน้า</value>
+  </data>
+  <data name="PCE_PageOfPages_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ หน้าของหน้า</value>
+  </data>
+  <data name="PCE_DatePrinted_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ วันที่พิมพ์</value>
+  </data>
+  <data name="PCE_TimePrinted_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ เวลาพิมพ์</value>
+  </data>
+  <data name="PCE_UserName_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ ชื่อผู้ใช้</value>
+  </data>
+  <data name="PCE_Image_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ ภาพ</value>
+  </data>
+  <data name="PCE_FontButton" xml:space="preserve">
+    <value>ปุ่มแบบอักษร</value>
+  </data>
+  <data name="PCE_FooterLabel" xml:space="preserve">
+    <value>ป้ายกำกับส่วนท้าย</value>
+  </data>
+  <data name="PCE_HeaderLabel" xml:space="preserve">
+    <value>ฉลากส่วนหัว </value>
+  </data>
+  <data name="PCE_AlignTops_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ จัดแนวท็อปส์</value>
+  </data>
+  <data name="PCE_AlignMiddles_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ  จัดแนวกลาง</value>
+  </data>
+  <data name="PCE_AlignBottoms_ToolTip" xml:space="preserve">
+    <value>คำแนะนำเครื่องมือ  จัดแนวล่าง</value>
+  </data>
+  <data name="MPE_PagesLabel" xml:space="preserve">
+    <value>MPE_PagesLabel</value>
+  </data>
+  <data name="Msg_FileDosntContainValidXml" xml:space="preserve">
+    <value>Msg_FileDosntContainValidXml</value>
+  </data>
+  <data name="Msg_FileDosntHavePrnxExtention" xml:space="preserve">
+    <value>Msg_FileDosntHavePrnxExtention</value>
+  </data>
+  <data name="FindForm_Msg_FinishedSearching" xml:space="preserve">
+    <value>FindForm_Msg_FinishedSearching</value>
+  </data>
+  <data name="FindForm_Msg_TotalFound" xml:space="preserve">
+    <value>FindForm_Msg_TotalFound</value>
+  </data>
+  <data name="UD_Title_FieldList_NoneNodeText" xml:space="preserve">
+    <value>UD_Title_FieldList_NoneNodeText</value>
+  </data>
+</root>
